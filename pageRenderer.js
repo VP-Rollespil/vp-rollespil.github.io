@@ -4,8 +4,7 @@ import { XMLParser } from "fast-xml-parser";
 import wiki2html from "./wikiToHtml.js";
 const parser = new XMLParser();
 
-function pageRenderer(page, data) {
-	data = data || {};
+function pageRenderer(page, data = {}) {
 	const pagePath = `./pages/${page}.xml`;
 	if (!fs.existsSync(pagePath)) {
 		return { success: false, error: "Page not found" };

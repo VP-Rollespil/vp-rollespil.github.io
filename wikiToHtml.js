@@ -7,6 +7,8 @@
   Can extend String or be used stand alone - just change the flag at the top of the script.
 */
 
+/* Changed */
+
 String.prototype.wiki2html = wiki2html;
 String.prototype.iswiki = iswiki;
 
@@ -77,15 +79,23 @@ function wiki2html(s) {
 				// italic
 				return "<em>" + l + "</em>";
 			})
+			.replace(/--(.*?)--/g, function (m, l) {
+				// strikethrough
+				return "<strike>" + l + "</strike>";
+			})
+			.replace(/__(.*?)__/g, function (m, l) {
+				// underline
+				return "<underline>" + l + "</underline>";
+			})
 
 			.replace(/[^\[](http[^\[\s]*)/g, function (m, l) {
 				// normal link
 				return '<a href="' + l + '">' + l + "</a>";
 			})
 
-			.replace(/[\[](http.*)[!\]]/g, function (m, l) {
+			.replace(/\[(http.*)[!\]]/g, function (m, l) {
 				// external link
-				var p = l.replace(/[\[\]]/g, "").split(/ /);
+				var p = l.replace(/[\[\]]/g, "").split(/\|/);
 				var link = p.shift();
 				return (
 					'<a href="' + link + '">' + (p.length ? p.join(" ") : link) + "</a>"
@@ -102,7 +112,11 @@ function wiki2html(s) {
 					return m;
 				} else {
 					return (
-						'<a href="' + link + '">' + (p.length ? p.join("|") : link) + "</a>"
+						'<a href="' +
+						link +
+						'.html">' +
+						(p.length ? p.join("|") : link) +
+						"</a>"
 					);
 				}
 			})
