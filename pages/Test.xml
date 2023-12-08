@@ -1,0 +1,26 @@
+<title>Test side</title>
+<text>
+=== Test side ===
+Dette er en test side
+
+||TOC||
+
+== links ==
+[[Test2|Test side 2]]
+[http://www.google.com|Google]
+[http://www.google.com]
+ this is an example of some code.
+
+== ting ==
+
+Another line of text...
+__Underlined__
+--Strikethrough--
+And now a list:
+* a list item...
+* Another
+** Some more, but in '''bold''' and ''italic'' and '''''both'''''
+*More again...
+
+
+</text>
