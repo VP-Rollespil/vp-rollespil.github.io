@@ -8,23 +8,26 @@ fs.mkdirSync("./build");
 fs.mkdirSync("./build/wiki");
 
 let pageCounter = 0;
-function buildDir(dir) {
+async function buildDir(dir) {
 	const pages = fs.readdirSync(`./pages/${dir}`);
 	console.log(pages);
+	let promises = [];
 	for (const element of pages) {
 		if (element.endsWith(".xml")) {
-			buildPage(dir, element, "./build");
-		} else if (fs.lstatSync(`./pages/${element}`).isDirectory()) {
+			promises.push(buildPage(dir, element, "./build"));
+		} else if (fs.lstatSync(`./pages/${dir}${element}`).isDirectory()) {
 			fs.mkdirSync(`./build/wiki/${dir}${element}`);
 			buildDir(`${dir}${element}/`);
 		} else {
 			console.log(`Unknown element ${element}`);
 		}
 	}
+	await Promise.all(promises);
+	return;
 }
-function buildPage(dir, page, location) {
+async function buildPage(dir, page, location) {
 	const pageName = page.replace(".xml", "");
-	const result = pageRenderer(`${dir}${pageName}`);
+	const result = await pageRenderer(`${dir}${pageName}`);
 	if (!result.success) {
 		console.log(`Failed to render ${pageName}: ${result.error}`);
 	} else {
@@ -33,7 +36,7 @@ function buildPage(dir, page, location) {
 	}
 }
 
-buildDir("");
+await buildDir("");
 
 //copy index.html
 let index = ejs.render(fs.readFileSync("./views/index.ejs", "utf8"));

@@ -4,19 +4,20 @@ import { XMLParser } from "fast-xml-parser";
 import wiki2html from "./wikiToHtml.js";
 const parser = new XMLParser();
 
-function pageRenderer(page, data = {}) {
+async function pageRenderer(page, data = {}) {
 	const pagePath = `./pages/${page}.xml`;
 	if (!fs.existsSync(pagePath)) {
 		return { success: false, error: "Page not found" };
 	}
 
-	const pageXML = fs.readFileSync(pagePath, "utf8");
-	const pageObject = parser.parse(pageXML);
-	if (!pageObject.text) return { success: false, error: "Page has no text" };
-	if (!pageObject.title) return { success: false, error: "Page has no title" };
-	let text = wiki2html(pageObject.text);
+	const pageText = fs.readFileSync(pagePath).toString();
+	if (!pageText) return { success: false, error: "Page has no text" };
+	let text = wiki2html(pageText);
 
-	const html = ejs.render(text, data);
+	const html = await ejs.renderFile("./views/page.ejs", {
+		page: { title: page, content: text },
+		...data,
+	});
 	return { success: true, html };
 }
 

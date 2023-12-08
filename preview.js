@@ -9,9 +9,9 @@ app.get("", (req, res) => {
 	res.render("index", { title: "Home" });
 });
 
-app.get("/wiki/*", (req, res) => {
+app.get("/wiki/*", async (req, res) => {
 	const page = req.path.replace("/wiki/", "").replace(".html", "");
-	const result = pageRenderer(`${page}`);
+	const result = await pageRenderer(`${page}`);
 	if (result.error) {
 		res.status(404).render("error", { title: "Error", error: result.error });
 	} else {
