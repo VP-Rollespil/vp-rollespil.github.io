@@ -124,3 +124,4 @@ function wiki2html(s) {
 }
 
 export default wiki2html;
+export { wiki2html, iswiki };

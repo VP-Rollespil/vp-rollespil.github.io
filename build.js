@@ -42,6 +42,13 @@ await buildDir("");
 let index = ejs.render(fs.readFileSync("./views/index.ejs", "utf8"));
 fs.writeFileSync("./build/index.html", index);
 
+// copy static files
+let staticFiles = fs.readdirSync("./public");
+fs.mkdirSync("./build/public");
+for (const file of staticFiles) {
+	fs.copyFileSync(`./public/${file}`, `./build/public/${file}`);
+}
+
 const end = performance.now();
 const time = end - start;
 console.log(`Rendered ${pageCounter} pages in ${time}ms`);
