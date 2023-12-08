@@ -1,15 +1,16 @@
 {
-  "name": "vp-wiki",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "CC-BY-SA-4.0",
-  "dependencies": {
-    "fast-xml-parser": "^4.3.2"
-  },
-  "type": "module"
+	"name": "vp-wiki",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "node ./build.js"
+	},
+	"author": "",
+	"license": "CC-BY-SA-4.0",
+	"dependencies": {
+		"fast-xml-parser": "^4.3.2"
+	},
+	"type": "module"
 }
