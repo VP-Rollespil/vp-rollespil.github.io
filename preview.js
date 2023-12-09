@@ -3,7 +3,7 @@ const app = express();
 import pageRenderer from "./pageRenderer.js";
 
 app.set("view engine", "ejs");
-app.use(static_("public"));
+app.use("/public", static_("public/"));
 
 app.get("", (req, res) => {
 	res.render("index", { title: "Home" });

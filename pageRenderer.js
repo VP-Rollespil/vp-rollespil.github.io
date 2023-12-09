@@ -11,11 +11,12 @@ async function pageRenderer(page, data = {}) {
 	}
 
 	const pageText = fs.readFileSync(pagePath).toString();
-	if (!pageText) return { success: false, error: "Page has no text" };
-	let text = wiki2html(pageText);
+	const pageObject = parser.parse(pageText);
+	if (!pageObject.text) return { success: false, error: "Page has no text" };
+	let text = wiki2html(pageObject.text);
 
 	const html = await ejs.renderFile("./views/page.ejs", {
-		page: { title: page, content: text },
+		page: { ...pageObject, text },
 		...data,
 	});
 	return { success: true, html };
