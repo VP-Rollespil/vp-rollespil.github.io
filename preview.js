@@ -33,7 +33,28 @@ app.post("/move", (req, res) => {
 	const { from, to } = req.body;
 	console.log(req.body);
 	if (from && to) {
+		if (!fs.existsSync(`./pages/${from}.xml`)) {
+			res.status(404).send("Page not found");
+			return;
+		}
+
+		let toPath = to.split("/");
+		toPath.pop();
+		toPath = toPath.join("/");
+		fs.mkdirSync(`./pages/${toPath}`, { recursive: true });
 		fs.renameSync(`./pages/${from}.xml`, `./pages/${to}.xml`);
+
+		/*Change all links*/
+		const pages = getPages("");
+		for (const page of pages) {
+			const pageText = fs.readFileSync(page).toString();
+			const newPageText = pageText
+				.replace(new RegExp(`\\[\\[${from}\\]\\]`, "gi"), `[[${to}]]`)
+				.replace(new RegExp(`\\[\\[${from}\\|`, "gi"), `[[${to}|`);
+
+			fs.writeFileSync(page, newPageText);
+		}
+
 		console.log(`Moved ${from} to ${to}`);
 		res.status(200).send("Moved");
 	} else {

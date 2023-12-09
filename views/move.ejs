@@ -6,20 +6,22 @@
 		<title>Move document</title>
 	</head>
 	<body>
-		Move:
-		<select id="from">
-			<% for (let i = 0; i < pages.length; i++) { %>
-			<option value="<%= pages[i] %>" id="page.<%= pages[i]%>">
-				<%= pages[i] %>
-			</option>
-			<% } %>
-		</select>
-		<br />
-		To: ./pages/<input type="text" id="to" value="" />
-		<button onclick="move()">Move</button>
-
+		<form action="#" onsubmit="move(event);  return false">
+			Move:
+			<select id="from">
+				<% for (let i = 0; i < pages.length; i++) { %>
+				<option value="<%= pages[i] %>" id="page.<%= pages[i]%>">
+					<%= pages[i] %>
+				</option>
+				<% } %>
+			</select>
+			<br />
+			To: ./pages/<input type="text" id="to" value="" />
+			<button type="submit">Move</button>
+		</form>
 		<script>
-			function move() {
+			function move(e) {
+				if (e) e.preventDefault();
 				const from = document.getElementById("from").value;
 				const to = document.getElementById("to").value;
 				fetch("/move", {

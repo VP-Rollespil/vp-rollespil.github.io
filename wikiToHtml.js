@@ -112,7 +112,7 @@ function wiki2html(s) {
 					return m;
 				} else {
 					return (
-						'<a href="' +
+						'<a href="/wiki/' +
 						link.toLowerCase() +
 						'.html">' +
 						(p.length ? p.join("|") : link) +
