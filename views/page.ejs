@@ -4,13 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title><%= page.title %></title>
-		<link rel="stylesheet" href="./public/style.css" />
+		<link rel="stylesheet" href="../public/page.css" />
 		<title><%page.title%></title>
 	</head>
 	<body>
 		<%- include('../partials/header') %>
-		<br />
-		<%- page.content _%><br />
-		<%- include('../partials/footer') %>
+		<div id="content">
+			<h1 id="title"><%= page.title %></h1>
+			<p id="author">Senest ændret af <%= page.author%> d. <%= page.date %></p>
+			<p id="tags">Tags: <%= page.tags%></p>
+			<br />
+			<%- page.text _%><br />
+		</div>
+		z <%- include('../partials/footer') %>
 	</body>
 </html>

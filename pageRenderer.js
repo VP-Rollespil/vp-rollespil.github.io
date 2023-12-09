@@ -22,4 +22,21 @@ async function pageRenderer(page, data = {}) {
 	return { success: true, html };
 }
 
+let pageCounter = 0;
+function getPages(dir) {
+	let allPages = [];
+	const pages = fs.readdirSync(`./pages/${dir}`);
+	let promises = [];
+	for (const element of pages) {
+		if (element.endsWith(".xml")) {
+			allPages.push(`./pages/${dir}${element}`);
+		} else if (fs.lstatSync(`./pages/${dir}${element}`).isDirectory()) {
+			allPages.push(...getPages(`${dir}${element}/`));
+		} else {
+			console.log(`Unknown element ${element}`);
+		}
+	}
+	return allPages;
+}
 export default pageRenderer;
+export { pageRenderer, getPages };

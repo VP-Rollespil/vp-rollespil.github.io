@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Move document</title>
+	</head>
+	<body>
+		Move:
+		<select id="from">
+			<% for (let i = 0; i < pages.length; i++) { %>
+			<option value="<%= pages[i] %>" id="page.<%= pages[i]%>">
+				<%= pages[i] %>
+			</option>
+			<% } %>
+		</select>
+		<br />
+		To: ./pages/<input type="text" id="to" value="" />
+		<button onclick="move()">Move</button>
+
+		<script>
+			function move() {
+				const from = document.getElementById("from").value;
+				const to = document.getElementById("to").value;
+				fetch("/move", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify({
+						from,
+						to,
+					}),
+				}).then((res) => {
+					if (res.status === 200) {
+						alert("Moved");
+						document.getElementById("page." + from).remove();
+						document.getElementById("to").value = "";
+						let option = document.createElement("option");
+						option.value = to;
+						option.id = "page." + to;
+						option.innerHTML = to;
+						document.getElementById("from").appendChild(option);
+					} else {
+						alert("Error");
+					}
+				});
+			}
+		</script>
+	</body>
+</html>
