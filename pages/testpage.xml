@@ -1,4 +1,6 @@
 <title>Test side</title>
+<contributor>Vitus Krogh Holm</contributor>
+<date>09/12/2023 08.46</date>
 <text>
 === Test side ===
 Dette er en test side
@@ -6,7 +8,7 @@ Dette er en test side
 ||TOC||
 
 == links ==
-[[Test2|Test side 2]]
+[[Testpage2|Test side 2]]
 [http://www.google.com|Google]
 [http://www.google.com]
  this is an example of some code.
