@@ -1,6 +1,6 @@
 import express, { static as static_ } from "express";
 const app = express();
-import pageRenderer, { getPages } from "./pageRenderer.js";
+import pageRenderer, { getPageLocations } from "./pageRenderer.js";
 import fs from "fs";
 
 app.set("view engine", "ejs");
@@ -26,7 +26,7 @@ app.get("/wiki/*", async (req, res) => {
 
 app.get("/move", (req, res) => {
 	res.render("move", {
-		pages: getPages("").map((page) =>
+		pages: getPageLocations("").map((page) =>
 			page.replace(".xml", "").replace("./pages/", "")
 		),
 	});
@@ -53,7 +53,7 @@ function move(from, to) {
 		fs.renameSync(`./pages/${from}.xml`, `./pages/${to}.xml`);
 
 		/*Change all links*/
-		const pages = getPages("");
+		const pages = getPageLocations("");
 		let updatedPages = 0;
 		for (const page of pages) {
 			const pageText = fs.readFileSync(page).toString();
@@ -88,20 +88,20 @@ app.post("/move", (req, res) => {
 });
 app.get("/bulkmove", (req, res) => {
 	res.render("bulkmove", {
-		pages: getPages("").map((page) =>
+		pages: getPageLocations("").map((page) =>
 			page.replace(".xml", "").replace("./pages/", "")
 		),
 	});
 });
 app.get("/bulkmovefromtext", (req, res) => {
 	res.render("movefromtext", {
-		pages: getPages("").map((page) =>
+		pages: getPageLocations("").map((page) =>
 			page.replace(".xml", "").replace("./pages/", "")
 		),
 	});
 });
 function getCleanPages() {
-	return getPages("").map((page) =>
+	return getPageLocations("").map((page) =>
 		page.replace(".xml", "").replace("./pages/", "")
 	);
 }

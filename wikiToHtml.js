@@ -21,6 +21,9 @@ function iswiki(s) {
 	return !!s.match(/^[\s{2} `#\*='{2}]/m);
 }
 
+import { getPageMap } from "./pageRenderer.js";
+const pages = getPageMap();
+
 // the regex beast...
 function wiki2html(s) {
 	// lists need to be done using a function to allow for recusive calls
@@ -112,13 +115,24 @@ function wiki2html(s) {
 					// no support for images - since it looks up the source from the wiki db :-(
 					return m;
 				} else {
-					return (
-						'<a href="/wiki/' +
-						link.toLowerCase() +
-						'.html">' +
-						(p.length ? p.join("|") : link) +
-						"</a>"
-					);
+					let page = link.toLowerCase().split("/").pop();
+					if (pages.has(page)) {
+						return (
+							'<a class="inactive" href="/wiki/' +
+							page +
+							'.html">' +
+							(p.length ? p.join("|") : link) +
+							"</a>"
+						);
+					} else {
+						return (
+							'<a href="/wiki/' +
+							page +
+							'.html">' +
+							(p.length ? p.join("|") : link) +
+							"</a>"
+						);
+					}
 				}
 			})
 	);
