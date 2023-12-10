@@ -28,24 +28,30 @@ app.get("/move", (req, res) => {
 	});
 });
 
-app.use(express.json());
-app.post("/move", (req, res) => {
-	const { from, to } = req.body;
-	console.log(req.body);
+function move(from, to) {
 	if (from && to) {
 		if (!fs.existsSync(`./pages/${from}.xml`)) {
-			res.status(404).send("Page not found");
-			return;
+			return { success: false, error: "Page not found" };
 		}
 
 		let toPath = to.split("/");
 		toPath.pop();
-		toPath = toPath.join("/");
+		toPath = toPath.join("/") + "/";
+		// if to is a directory, move to directory
+		console.log({ toPath, to });
+		if (toPath == to) {
+			let fromName = from.split("/").pop();
+			to = `${to}${fromName}`;
+		}
+		if (to == "/") to = "";
+		if (to.startsWith("/")) return { success: false, error: "Invalid path" };
 		fs.mkdirSync(`./pages/${toPath}`, { recursive: true });
 		fs.renameSync(`./pages/${from}.xml`, `./pages/${to}.xml`);
 
 		/*Change all links*/
 		const pages = getPages("");
+		console.log(`Replace [[${from}]] with [[${to}]]]`);
+
 		for (const page of pages) {
 			const pageText = fs.readFileSync(page).toString();
 			const newPageText = pageText
@@ -56,9 +62,59 @@ app.post("/move", (req, res) => {
 		}
 
 		console.log(`Moved ${from} to ${to}`);
-		res.status(200).send("Moved");
+		return { success: true };
 	} else {
-		res.status(400).send("Bad request");
+		return { success: false, error: "Missing parameters" };
+	}
+}
+
+app.use(express.json());
+app.post("/move", (req, res) => {
+	let { from, to } = req.body;
+	console.log(req.body);
+	const result = move(from, to);
+
+	if (result.success) {
+		res.status(200).send(result);
+	} else {
+		res.status(400).send(result);
+	}
+});
+app.get("/bulkmove", (req, res) => {
+	res.render("bulkmove", {
+		pages: getPages("").map((page) =>
+			page.replace(".xml", "").replace("./pages/", "")
+		),
+	});
+});
+function getCleanPages() {
+	return getPages("").map((page) =>
+		page.replace(".xml", "").replace("./pages/", "")
+	);
+}
+app.post("/bulkmove", (req, res) => {
+	let { items, to } = req.body;
+
+	//check if to is a directory
+	let toPath = to.split("/");
+	toPath.pop();
+	toPath = toPath.join("/") + "/";
+	if (toPath != to) {
+		res.status(400).send({ success: false, error: "to must be a directory" });
+		return;
+	}
+
+	let errors = [];
+	for (const element of items) {
+		const result = move(element, to);
+		if (!result.success) {
+			errors.push({ from: element, to: to, error: result.error });
+		}
+	}
+	if (errors.length == 0) {
+		res.status(200).send({ success: true, pages: getCleanPages() });
+	} else {
+		res.status(400).send({ success: false, errors });
 	}
 });
 

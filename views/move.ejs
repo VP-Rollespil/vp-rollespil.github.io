@@ -23,7 +23,7 @@
 			function move(e) {
 				if (e) e.preventDefault();
 				const from = document.getElementById("from").value;
-				const to = document.getElementById("to").value;
+				let to = document.getElementById("to").value;
 				fetch("/move", {
 					method: "POST",
 					headers: {
@@ -38,6 +38,16 @@
 						alert("Moved");
 						document.getElementById("page." + from).remove();
 						document.getElementById("to").value = "";
+
+						let toPath = to.split("/");
+						toPath.pop();
+						toPath = toPath.join("/") + "/";
+						// if to is a directory, move to directory
+						console.log({ toPath, to });
+						if (toPath == to) {
+							let fromName = from.split("/").pop();
+							to = `${to}${fromName}`;
+						}
 						let option = document.createElement("option");
 						option.value = to;
 						option.id = "page." + to;

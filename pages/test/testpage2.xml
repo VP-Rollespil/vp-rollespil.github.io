@@ -1,23 +1,16 @@
 <title>Test side 2</title>
+<author>Vitus Krogh Holm</author>
+<date>09/12/2023 08.46</date>
+<tags>test, page</tags>
 <text>
 === Test side 2 ===
-Dette er endnu en test side
+Dette er en test side
 
-&lt;table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em"&gt;
-&lt;tr valign=top&gt;&lt;td style="background:#efefef;" colspan=2 align=center&gt;[[Fisgur]]
-&lt;tr valign=top&gt;&lt;td&gt;'''Benævnelse(r)'''&lt;td&gt;''Den Altædende''
-&lt;tr valign=top&gt;&lt;td&gt;''' Gruppetilhør'''&lt;td&gt;[[Dæmon]]
-&lt;tr valign=top&gt;&lt;td&gt;''' Guderige'''&lt;td&gt;Skabt på et ukendt sted
-&lt;tr valign=top&gt;&lt;td&gt;''' Tilhørsforhold'''&lt;td&gt;Neutralitet
-&lt;tr valign=top&gt;&lt;td&gt;'''Kreds'''&lt;td&gt;Ingen
-&lt;tr valign=top&gt;&lt;td&gt;''' Arbejdsområde(r)'''&lt;td&gt;Mad, søvn og magt
-&lt;tr valign=top&gt;&lt;td&gt;'''Tilbedere'''&lt;td&gt;[[Goblin]]er
-&lt;tr valign=top&gt;&lt;td&gt;'''Domæne(r)'''&lt;td&gt;Ingen
-&lt;tr valign=top&gt;&lt;td&gt;''' Mage(r)'''&lt;td&gt;Ingen
-&lt;tr valign=top&gt;&lt;td&gt;'''Efterkommer(e)'''&lt;td&gt;Ingen
-&lt;tr valign=top&gt;&lt;td&gt;'''Helligdag(e)'''&lt;td&gt;Ingen
-&lt;tr valign=top&gt;&lt;td&gt;'''Helligt værktøj'''&lt;td&gt;Kniv og gaffel
-&lt;/table&gt;
+||TOC||
 
-[[test/dir/testpage3|Test3]]
+== links ==
+[[test/testpage|Test side]]
+
+
+
 </text>
