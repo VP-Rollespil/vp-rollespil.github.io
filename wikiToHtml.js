@@ -79,6 +79,7 @@ function wiki2html(s) {
 				// italic
 				return "<em>" + l + "</em>";
 			})
+			.replace(/----/g, "<hr />")
 			.replace(/--(.*?)--/g, function (m, l) {
 				// strikethrough
 				return "<strike>" + l + "</strike>";

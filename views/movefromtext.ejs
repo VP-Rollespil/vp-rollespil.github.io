@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bulk move</title>
+	</head>
+	<body>
+		<div>
+			<h1>Flyt sider ved at paste links til dem</h1>
+
+			<textarea id="text" cols="30" rows="10"></textarea>
+			To: ./pages/<input type="text" id="to" value="" />
+			<button onclick="move()">Move</button>
+
+		<script>
+			// Add click event listener to elements
+			function move() {
+
+				const text = document.getElementById("text").value;
+
+				// Find all wikitext links
+				let wikitextLinks = text.match(/\[\[.*?\]\]/g);
+				//split on |
+				wikitextLinks = wikitextLinks.map((link) => {
+					return link.split("|")[0].replace("[[", "");
+				});
+
+
+				let listItems = wikitextLinks
+
+				let to = document.getElementById("to").value;
+				fetch("/bulkmove", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify({
+						items: listItems,
+						to,
+					}),
+				})
+					.then((res) => res.json())
+					.then((data) => {
+						console.log(data);
+
+						if (data.success) {
+							alert("Success!");
+						} else {
+							alert("Error!" + JSON.stringify(data));
+						}
+					});
+			}
+		</script>
+
+		<style>
+			.clickable {
+				cursor: pointer;
+			}
+			.clickable:hover {
+				background-color: #ccc;
+			}
+
+			#right {
+				background-color: #ccc;
+				padding: 1rem;
+				position: fixed;
+				top: 0;
+				right: 0;
+				overflow-y: scroll;
+			}
+		</style>
+	</body>
+</html>
+<!-- END: abpxx6d04wxr -->

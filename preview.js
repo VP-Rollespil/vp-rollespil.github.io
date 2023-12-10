@@ -93,6 +93,13 @@ app.get("/bulkmove", (req, res) => {
 		),
 	});
 });
+app.get("/bulkmovefromtext", (req, res) => {
+	res.render("movefromtext", {
+		pages: getPages("").map((page) =>
+			page.replace(".xml", "").replace("./pages/", "")
+		),
+	});
+});
 function getCleanPages() {
 	return getPages("").map((page) =>
 		page.replace(".xml", "").replace("./pages/", "")
