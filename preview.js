@@ -11,7 +11,11 @@ app.get("", (req, res) => {
 });
 
 app.get("/wiki/*", async (req, res) => {
-	const page = req.path.replace("/wiki/", "").replace(".html", "");
+	const decodedPage = decodeURIComponent(req.path);
+	const page = decodedPage.replace("/wiki/", "").replace(".html", "");
+
+	//convert escaped characters
+
 	const result = await pageRenderer(`${page}`);
 	if (result.error) {
 		res.status(404).render("error", { title: "Error", error: result.error });
@@ -50,18 +54,20 @@ function move(from, to) {
 
 		/*Change all links*/
 		const pages = getPages("");
-		console.log(`Replace [[${from}]] with [[${to}]]]`);
-
+		let updatedPages = 0;
 		for (const page of pages) {
 			const pageText = fs.readFileSync(page).toString();
 			const newPageText = pageText
 				.replace(new RegExp(`\\[\\[${from}\\]\\]`, "gi"), `[[${to}]]`)
 				.replace(new RegExp(`\\[\\[${from}\\|`, "gi"), `[[${to}|`);
 
-			fs.writeFileSync(page, newPageText);
+			if (pageText != newPageText) {
+				fs.writeFileSync(page, newPageText);
+				updatedPages++;
+			}
 		}
 
-		console.log(`Moved ${from} to ${to}`);
+		console.log(`Moved ${from} to ${to} and updated ${updatedPages} pages`);
 		return { success: true };
 	} else {
 		return { success: false, error: "Missing parameters" };

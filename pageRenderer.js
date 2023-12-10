@@ -26,7 +26,6 @@ let pageCounter = 0;
 function getPages(dir) {
 	let allPages = [];
 	const pages = fs.readdirSync(`./pages/${dir}`);
-	let promises = [];
 	for (const element of pages) {
 		if (element.endsWith(".xml")) {
 			allPages.push(`./pages/${dir}${element}`);
