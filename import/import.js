@@ -72,9 +72,10 @@ for (let page of pagesXML) {
 		author: page.author,
 		timestamp: page.timestamp,
 		text: page.text,
+		copyright: page.title,
 	});
 	pagesText.push(xmlContent);
-	writeFileSync(`../pages/${page.filename}.xml`, xmlContent, {
+	writeFileSync(`../pages/${page.filename.toLowerCase()}.xml`, xmlContent, {
 		encoding: "utf-8",
 	});
 }
