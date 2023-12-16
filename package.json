@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "node ./build.js"
+		"build": "node ./build.js",
+		"preview": "node ./preview.js",
+		"servebuild": "node ./servebuild.js"
 	},
 	"author": "",
 	"license": "CC-BY-SA-4.0",
