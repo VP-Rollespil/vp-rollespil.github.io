@@ -20,24 +20,7 @@
 
 			<br />
 			<br />
-			<hr />
-			<em
-				>Alt på denne wiki er licenseret under
-				<a href="https://creativecommons.org/licenses/by-sa/4.0/"
-					>CC-BY-SA 4.0</a
-				></em
-			>
-			<br />
-			<% if (page.copyright) {%>
-			<em
-				>Dele af siden stammer fra artiklen
-				<a href="https://niraham.fandom.com/da/wiki/<%=page.copyright%>"
-					><%=page.copyright%></a
-				>
-				på <a href="https://niraham.fandom.com/da/wiki/">Niraham Wiki</a> hos
-				<a href="https://www.fandom.com/">Fandom</a></em
-			>
-			<% } %>
+			<%- include('../partials/copyright.ejs') %>
 		</div>
 		<!--%- include('../partials/footer.ejs') %-->
 	</body>

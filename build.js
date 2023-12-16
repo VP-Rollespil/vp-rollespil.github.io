@@ -38,9 +38,21 @@ async function buildPage(dir, page, location) {
 
 await buildDir("");
 
-//copy index.html
-let index = ejs.render(fs.readFileSync("./views/index.ejs", "utf8"));
-fs.writeFileSync("./build/index.html", index);
+//write offgame pages
+{
+	let result = await pageRenderer("forside", {}, false);
+	if (!result.success) {
+		console.log(`Failed to render index: ${result.error}`);
+	} else {
+		fs.writeFileSync(`./build/index.html`, result.text);
+	}
+	result = await pageRenderer("regler", {}, false);
+	if (!result.success) {
+		console.log(`Failed to render regler: ${result.error}`);
+	} else {
+		fs.writeFileSync(`./build/regler.html`, result.text);
+	}
+}
 
 // copy static files
 let staticFiles = fs.readdirSync("./public");

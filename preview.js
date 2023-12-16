@@ -6,8 +6,22 @@ import fs from "fs";
 app.set("view engine", "ejs");
 app.use("/public", static_("public/"));
 
-app.get("", (req, res) => {
-	res.render("index", { title: "Home" });
+async function renderOffgamePage(pageName, res, req) {
+	const result = await pageRenderer(pageName, {}, false);
+	if (result.error) {
+		res.status(404).render("error", { title: "Error", error: result.error });
+	} else {
+		res.render("offgame.ejs", {
+			content: result.text,
+			page: result.page,
+		});
+	}
+}
+app.get("", async (req, res) => {
+	renderOffgamePage("forside", res, req);
+});
+app.get("/regler.html", async (req, res) => {
+	renderOffgamePage("regler", res, req);
 });
 
 app.get("/wiki/*", async (req, res) => {

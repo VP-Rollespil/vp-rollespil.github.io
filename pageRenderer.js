@@ -10,9 +10,11 @@ let pages = getPageMap();
  * Renders a page with the given data.
  * @param {string} page - The name of the page to render.
  * @param {Object} [data={}] - Additional data to pass to the page template.
- * @returns {Promise<{ success: boolean, html: string }>} - The rendered page HTML.
+ * @param {boolean} [render=true] - Whether to render the page to HTML or return the page object.
+ * @returns {Promise<{success: boolean, html: string}|{success: boolean, error: string}|{success: boolean, text: string, page: Object}>} - The result of the rendering.
+ * @async
  */
-async function pageRenderer(page, data = {}) {
+async function pageRenderer(page, data = {}, render = true) {
 	const pagePath = pages.get(page);
 	if (!fs.existsSync(pagePath)) {
 		return { success: false, error: "Page not found" };
@@ -22,12 +24,15 @@ async function pageRenderer(page, data = {}) {
 	const pageObject = parser.parse(pageText);
 	if (!pageObject.text) return { success: false, error: "Page has no text" };
 	let text = wiki2html(pageObject.text);
-
-	const html = await ejs.renderFile("./views/page.ejs", {
-		page: { ...pageObject, text },
-		...data,
-	});
-	return { success: true, html };
+	if (render) {
+		const html = await ejs.renderFile("./views/page.ejs", {
+			page: { ...pageObject, text },
+			...data,
+		});
+		return { success: true, html };
+	} else {
+		return { success: true, text: text, page: pageObject };
+	}
 }
 
 /**

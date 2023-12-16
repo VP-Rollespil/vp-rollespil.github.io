@@ -49,6 +49,10 @@ function wiki2html(s) {
 	return list(
 		s
 
+			//TOC __TOC__ (not supported yet)
+			.replace(/__TOC__/g, function (m, l) {
+				return "";
+			})
 			/* BLOCK ELEMENTS */
 			.replace(/(?:^|\n+)([^# =\*<].+)(?:\n+|$)/gm, function (m, l) {
 				if (l.match(/^\^+$/)) return l;
@@ -106,11 +110,6 @@ function wiki2html(s) {
 				);
 			})
 
-			//TOC __TOC__ (not supported yet)
-			.replace(/__TOC__/g, function (m, l) {
-				return "";
-			})
-
 			.replace(/\[\[(.*?)\]\]/g, function (m, l) {
 				// internal link or image
 				var p = l.split(/\|/);
@@ -146,3 +145,40 @@ function wiki2html(s) {
 
 export default wiki2html;
 export { wiki2html, iswiki };
+
+/*
+import wikity from "wikity";
+import { JSDOM } from "jsdom";
+function parseWiki(wiki) {
+	let htmltext =
+		"<html><body>" +
+		wikity.parse(wiki, {
+			templatesFolder: "./pages/",
+		}) +
+		"</body></html>";
+	let htmlDoc = new JSDOM(htmltext);
+
+	//Find all internal links
+	let links = htmlDoc.window.document.getElementsByTagName("a");
+	for (let link of links) {
+		//is it not a wiki link?
+		if (!link.getAttribute("href")) continue;
+		if (link.getAttribute("href").startsWith("http")) continue;
+		if (link.getAttribute("href").startsWith("#")) continue;
+		if (link.getAttribute("href").startsWith("./")) continue;
+
+		let page = link.getAttribute("href").toLowerCase().split("/").pop();
+		if (pages.has(page)) {
+			link.setAttribute("href", "/wiki/" + page + ".html");
+			link.classList.add("active");
+		} else {
+			link.removeAttribute("href");
+			link.classList.add("inactive");
+		}
+	}
+
+	let html = htmlDoc.window.document.body.innerHTML;
+	return html;
+} 
+export default parseWiki;
+export { parseWiki as wiki2html };*/
