@@ -1,0 +1,16 @@
+[[image:svarkstad bog forside.jpg|center|600px]]
+{{pagebreak}}
+= Offgame forord =
+Hej!
+Denne bog er skabt til at gøre det nemmere for nye spillere at kende historien og kulturen i [[Svarkstad]].
+Den er en sammensmeltning af flere menneskers arbejde. Nogle steder er kilder angivet. De er altid offgame referencer til slutningen af denne bog, hvor der er en liste over kilderne.
+Kilder er angivet med et nummer i \[parentes\], som refererer til kildelisten.
+Jeg håber, den vil komme dig til hjælp.
+- Vitus Krogh Holm
+{{pagebreak}}
+= Ingame forord =
+Svarkstad er ikke en by, man ville forvente var vigtig. Det er en lille by i [[Vestlenet]], som ikke har nogen særlige ressourcer, og som ikke er særlig stor. 
+Alligevel har Svarkstad spillet en central rolle i flere forskellige vigige begivenheder, såsom [[Emyrs]] invasion af [[Narabond]] og INDSÆT HER
+
+{{pagebreak}}
+= Svarkstads personager =
