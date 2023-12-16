@@ -1,0 +1,24 @@
+{{title:Haldor Auberon}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-27T15:33:38Z}}
+{{copyright:Haldor Auberon}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Haldor Auberon]]
+<tr valign=top><td>'''Bævnelser'''<td>Ridder af [[Paravien]],
+Lensherre af [[Auberon len]],
+
+Borgherre til [[Emda]]
+<tr valign=top><td>'''Hjem'''<td>[[Eachann]]
+<tr valign=top><td>'''Køn'''<td>Mand
+<tr valign=top><td>'''Race'''<td>[[Menneske]]
+<tr valign=top><td>'''Født'''<td>Juli, 1436 [[e.J.]]
+<tr valign=top><td>'''Profession'''<td>Ridder, lensherre
+<tr valign=top><td>'''Religion'''<td>[[Ragil]]
+</table>
+'''Haldor Auberon''' [udtales O-bær-ahn] er lensherre i [[Auberon len]] og borgherre til fæstningen [[Emda]] i høvedstaden [[Eachann]]. Han blev født i år 1436 [[e.J.]] som den ældste søn af Sir Gerret Auberon og Leda [[Rosenskjul]] af [[Tharkien]]. Hans lillesøster Rosette er gift med Grev [[Thomas DiAndré]] fra [[Lenerne]].
+
+Sir Haldor blev lensherre i vinteren 1458 e.J., da hans fader faldt i kampen mod en [[varulv]], som hærgede i den nordlige del af lenet. Senere på året fik Haldor en lillebror, som han navngav Gerret efter deres fader, men mistede samtidig sin moder ved fødslen. Den nye lensherre giftede sig straks derefter med datteren af sin faders bedste vasal, så hun kunne være som barnets moder, og tog sin lillebror til sig som sin egen søn. Sir Haldor og hans hustru Eleera har selv to børn, sønnen Arion som blev født et år efter Gerret, og datteren Leda fra år 1463.
+
+Sir Arion fremstår på mange måder udadtil som lensherren i Auberon len, da Sir Haldor siden sin faders død har været nærmest besat af at jage og udrydde overnaturlige væsener. Som et resultat af denne bestræbelse er ridderen næsten aldrig hjemme og håbløst uinformeret om, hvad der egentlig foregår i hans len. Ydermere har hans besættelse kostet Sir Haldor hans venstre arm og enhver føling med sine undersåtter, som aldrig rigtig har været ledet af Sir Haldor selv, men snarere af hans kone og i løbet af de sidste par år hans søn.
+
+Det har altid været svært for folk at få Sir Haldor Auberon i tale, og hans indflydelse i både Paravien og resten af [[Niraham]] har lidt en del derunder, men ikke desto mindre har han stadig stor magt, idet det er Sir Haldors [[Sankt Nimranns Akademi]], der uddanner de bedste riddere i Paravien og står for at oplære størstedelen af Paraviens beredne hærstyrke.

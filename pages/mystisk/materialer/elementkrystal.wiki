@@ -1,0 +1,18 @@
+{{title:Elementkrystal}}
+{{author:Laura Holmegaard}}
+{{timestamp:2011-01-16T09:27:06Z}}
+{{copyright:Elementkrystal}}
+'''Elementkrystal''' er en fællesbetegnelse for den type sten, som forøger styrken i rituel elementmagi. Denne type sten har en naturlig tilbøjelighed indenfor et bestemt element, og er således i stand til at forøge effekten af ritualer, hvis omdrejningspunkt er et eller flere af de fire elementer.
+
+Både [[rød eislonsk krystal]], [[etesian]], [[havøje]] og [[bjergrod]] er fra naturens side i stand til at forøge den kraft, som diverse former for elementbesværgelser indeholder. Dette betyder, at en person, som benytter sig af denne form for krystaller i et ritual, får et langt mere effektivt resultat end en person, som afholder præcis samme ritual under de samme forudsætninger undtagen brugen af krystallerne.
+
+Des større mængde krystal, som befinder sig i ritualafholderens umiddelbare nærvær, des stærkere påvirkning har stenene, især hvis de inkluderes i ritualgrundens optegnelser.
+
+====Krystallerne====
+'''[[Rød eislonsk krystal]]''' er en katalysator [[ild]].
+
+'''[[Etesian]]''' er en katalysator for [[luft]]. 
+
+'''[[Havøje]]''' er en katalysator for [[vand]].
+
+'''[[Bjergrod]]''' er en katalysator for [[jord]].

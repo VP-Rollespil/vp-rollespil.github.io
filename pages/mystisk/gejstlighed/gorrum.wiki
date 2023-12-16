@@ -1,0 +1,25 @@
+{{title:Gorrum}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-28T18:42:19Z}}
+{{copyright:Gorrum}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Gorrum]]
+<tr valign=top><td>'''Benævnelse(r)'''<td>Alfaderen og Skaberen 
+(kun af orker)
+<tr valign=top><td>''' Gruppetilhør'''<td>[[Dæmon]]
+<tr valign=top><td>''' Guderige'''<td>Skabt på et ukendt sted
+<tr valign=top><td>''' Tilhørsforhold'''<td>Neutralitet
+<tr valign=top><td>'''Kreds'''<td>[[Ork|Orkerne]]
+<tr valign=top><td>''' Arbejdsområde(r)'''<td>Alting
+<tr valign=top><td>'''Tilbedere'''<td>Orker
+<tr valign=top><td>'''Domæne(r)'''<td>Alt
+<tr valign=top><td>''' Mage(r)'''<td>Ingen
+<tr valign=top><td>'''Efterkommer(e)'''<td>Ingen
+<tr valign=top><td>'''Helligdag(e)'''<td>Ingen
+<tr valign=top><td>'''Helligt værktøj'''<td>Intet
+</table>
+'''Gorrum''' er en guddommelig entitet, der bliver betragtet som en [[dæmon]] af alle racer i [[Niraham]] undtagen [[ork|orkernes]]. Han er orkernes skytsgud.
+
+Langt de fleste orker i Niraham er overbeviste om, at Gorrum er den eneste sande gud, som findes, og at alle de øvrige guder er hans tjenere eller "[[mirner|mirnere]]". Derfor tilbedes Gorrum også af næsten alle verdens orker, undtagen nogle få stykker som bekender sig til enten [[Thlarn]] eller [[Gorgoon]], men ofte som et led i en indirekte tilbedelse af Gorrum.
+
+Af orkerne opfattes Gorrum som Nirahams skaber. Han er altomfavnende, og eftersom det er Gorrum, der har skabt alt, står han også for hver eneste ting på Niraham, hvad enten det er krig, jagt, håndværk, visdom eller hævn. Gorrum har ifølge dem ingen begrænsninger, men naturligvis står han mere for visse ting end andre, f.eks. den kamp, som er så indgroet en del af orkernes levevis, og så naturligvis [[grønhud|grønhudernes]] lykke.

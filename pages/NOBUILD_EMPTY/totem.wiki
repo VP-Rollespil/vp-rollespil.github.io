@@ -1,0 +1,4 @@
+{{title:Totem}}
+{{author:undefined}}
+{{timestamp:2010-11-17T23:53:36Z}}
+{{copyright:Totem}}

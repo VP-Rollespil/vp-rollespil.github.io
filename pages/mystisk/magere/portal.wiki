@@ -1,0 +1,18 @@
+{{title:Portal}}
+{{author:Laura Holmegaard}}
+{{timestamp:2011-01-04T20:11:43Z}}
+{{copyright:Portal}}
+En '''portal''' er en dør mellem planerne eller mellem to forskellige beliggenheder på det samme plan. Ved at passere igennem en portal kan man komme fra [[Eislon]] til [[Kongebyen]] på et splitsekund, eller fra [[Niraham]] til [[Goram]]. Det kan dog variere kraftigt, hvor lang tid det tager at passere igennem denne form for dør.
+
+====Permanente portaler====
+Når portaler omtales, refereres der nu om dage primært til ''permanente portaler'', altså deciderede konstruktioner som kan føre en person fra ét sted til et andet.
+
+I henhold til permanente portaler skelnes der mellem to typer: ''Aktive'' og ''slumrende portaler''. De aktive skaber en åben rift mellem to steder på et eller flere planer, som man til enhver tid kan træde igennem, mens de slumrende skal aktiveres af en eller flere personer, som er bekendt med mekanismen bag dem. Som regel kræver dette en kraftig energiudladning af [[mana]] afhængig af portalens størrelse og varigheden af forbindelsen, men visse slumrende portaler kan også "vækkes" med et aktiveringsord, hvis de er skabt med en besværgelse i stedet for et ritual. Atter andre portaler skal "hvile" imellem hver aktivering.
+
+[[Elver|Elverne]] og [[sortelver|sortelverne]] er to af de folk, som benytter sig mest af permanente portaler. Elverne benytter sig primært af slumrende portaler, som er nødt til at hvile mellem hver aktivering, mens sortelverne synes at have en apati imod de permanente af slagsen, da disse angiveligt skulle være en hån imod [[Fanabina|Fanabinas]] tilfældighedsaspekt. Måske af samme grund lader der til at eksistere flere portaler rundt omkring i [[Underverdenen|Underverdenens]] gange, end der gør i selve byerne.
+
+====Momentane portaler====
+''Momentane portaler'', den slags som opstår i ét nu og som regel kun kan føre den, som åbnede portalen, til en ny beliggenhed, er sammen med [[tempist|tempisternes]] forsvinden nemlig blevet uhyre sjældne.
+
+====Se også====
+[[Tempisme]]

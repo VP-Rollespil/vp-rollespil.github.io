@@ -1,0 +1,20 @@
+{{title:Finnian Tremain}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-03T18:19:43Z}}
+{{copyright:Finnian Tremain}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Finnian Tremain]]
+<tr valign=top><td>'''Bævnelse(r)'''<td>Greve af [[Lindsborg]]
+<tr valign=top><td>'''Hjem'''<td>[[Lindsborg]]
+<tr valign=top><td>'''Køn'''<td>Mand
+<tr valign=top><td>'''Race'''<td>[[Menneske]]
+<tr valign=top><td>'''Født'''<td>Februar, 1466 [[e.D.]]
+<tr valign=top><td>'''Slægt'''<td>[[Tremain]]
+<tr valign=top><td>'''Profession'''<td>Væbner
+<tr valign=top><td>'''Religion'''<td>[[Nimar]]
+</table>
+'''Grev Finnian Tremain''' af [[Lindsborg]] er den ældste søn af Lensgreve [[Argus Tremain]] og hans hustru, [[Eira Tremain|Eira de Renna]].
+Finnian blev født i år 1456 [[e.J.]] som den første i en søskendeflok på tre.
+Hans yngre søskende er søstrene [[Muirenn Tremain|Muirenn]] og [[Aderyn Tremain|Aderyn]].
+
+Han har været i tjeneste på [[Morr]] som page siden 1473 e.J., og blev valgt som væbner i år 10 e.D. af  Ridder [[Nestor Lynklinge]].

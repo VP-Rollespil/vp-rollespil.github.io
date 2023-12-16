@@ -1,0 +1,5 @@
+{{title:Jarconerne}}
+{{author:Laura Holmegaard}}
+{{timestamp:2011-01-19T13:43:50Z}}
+{{copyright:Jarconerne}}
+#REDIRECT: [[Jarconerordenen]]

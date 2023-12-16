@@ -1,0 +1,5 @@
+{{title:Sletter}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-11-26T16:09:39Z}}
+{{copyright:Sletter}}
+#REDIRECT [[Heder og sletter]]

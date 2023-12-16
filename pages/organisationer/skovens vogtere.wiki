@@ -1,0 +1,28 @@
+{{title:Skovens Vogtere}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-03T13:16:54Z}}
+{{copyright:Skovens Vogtere}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Skovens Vogtere]]
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Symbol.JPG]]
+<tr valign=top><td>'''Benævnelse(r)'''<td>Ingen
+<tr valign=top><td>'''Leder'''<td>[[Ildtorn]]
+<tr valign=top><td>''' Stiftet'''<td>Ukendt
+<tr valign=top><td>''' Kendte medlem(mer)'''<td>[[Ildtorn]], [[Regn Månesegl]],
+[[Efeu Akantus]]
+<tr valign=top><td>'''Racer'''<td>[[Elver|Elvere]], primært [[skovelver|skovelvere]]
+<tr valign=top><td>'''Alliance(r)'''<td>[[Eislonien]], [[Santillia]],
+[[Solcirklen]], [[Santillias Ulve]],
+
+[[Sissiannas Inkvisition]]
+<tr valign=top><td>''' Modstander(e)'''<td>Ingen officielle
+<tr valign=top><td>'''Hovedsæde(r)'''<td>[[Crataeon]]
+<tr valign=top><td>'''Symbol(er)'''<td>Et [[livstræ]]
+</table>
+'''Skovens Vogtere''' er en skovelvisk orden, som blev stiftet for mange år siden som et led i et verdensomspændende forsøg på at bevare de sidste [[livstræ|livstræer]] på [[Niraham]] imod overgreb. På trods af at den er begyndt af [[skovelver|skovelvere]], findes der også højelviske medlemmer af ordenen, for den har et fælles mål som enhver [[elver]] kan støtte op om: At beskytte [[Santillia]], [[Eislonien|Eisloniens]] skove, og de få livstræer, som endnu vokser på pladen, i særhed dem som vokser udenfor Eisloniens grænser.
+
+Skovens Vogtere er ofte kendetegnet ved deres meget aggressive adfærd overfor alt og alle, som forsøger at komme ind i deres skov, såfremt disse fremmede ikke er elvere. De har favnet deres vrede i langt større grad end alle andre elvere, fordi de er klar over, at det ikke længere nytter først at begynde at forsvare sig, når man ikke kan trække sig længere bort fra fjenden, og søger nu for, at [[Sissianna|Sissiannas]] velsignede skove aldrig igen skal lide overgreb fra [[menneske|menneskenes]], [[dværg|dværgenes]] eller [[sortblodsvæsener|sortblodsvæsenernes]] side.
+
+Visse elvere fordømmer til dels Skovens Vogtere på grund af deres ekstreme indstilling, men de fleste er i stand til at nikke anerkendende, men bedrøvet, til ordenens metoder og nidkærhed. Skovens Vogtere er især kendt for sine dødbringende [[elverspejder|elverspejdere]], men der findes også flere magikere iblandt disse beskyttere af lundene.
+
+Ordenen har hovedsæde i [[Crataeon]], og ledes af den skovelviske [[elementalist]] [[Ildtorn]].

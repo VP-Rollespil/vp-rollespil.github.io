@@ -1,0 +1,20 @@
+{{title:Ildtorn}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-03T13:21:29Z}}
+{{copyright:Ildtorn}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Ildtorn]]
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[:Image: Ildtorn.JPG]]
+<tr valign=top><td>'''Bævnelser'''<td>[[Stormester (gejstlig)|Stormester]] af [[Skovens Vogtere]],
+Elementalistmester
+<tr valign=top><td>'''Hjem'''<td>[[Crataeon]]
+<tr valign=top><td>'''Køn'''<td>Mand
+<tr valign=top><td>'''Race'''<td>[[Skovelver]]
+<tr valign=top><td>'''Født'''<td>April, 758 [[e.J.]], [[Crataeon]]
+<tr valign=top><td>'''Slægt'''<td>Ukendt
+<tr valign=top><td>'''Profession'''<td>[[Elementalist]], kriger
+<tr valign=top><td>'''Religion'''<td>[[Sissianna]]
+</table>
+'''Ildtorn''' er overhovedet for [[Skovens Vogtere]] og [[elementalist]] af 10. cirkel. Han er kendt som en meget yderliggående beskytter af [[Santillia]], der flere gange har givet udtryk for, at målet helliger ethvert middel, som ikke går imod [[guderne|gudernes]] vilje.
+
+Derudover er Ildtorn også kendt som en fanatisk tilbeder af [[Sissianna]], men siges at have haft flere skærmydsler med [[Lyane|Lyanes kirke]] i tidens løb.

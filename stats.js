@@ -1,7 +1,5 @@
-import { getPageMap } from "./pageRenderer.js";
+import { getPageMap, parser } from "./pageRenderer.js";
 import fs from "fs";
-import { XMLParser } from "fast-xml-parser";
-const parser = new XMLParser();
 let pages = getPageMap();
 
 let links = new Map();
@@ -11,7 +9,7 @@ function findLinks(onlyPage = null) {
 	//find all links and count them
 	for (const page of pages) {
 		const pageText = fs.readFileSync(page[1]).toString();
-		const pageObject = parser.parse(pageText);
+		const pageObject = parser(pageText);
 		if (!pageObject.text) continue;
 		const text = pageObject.text;
 

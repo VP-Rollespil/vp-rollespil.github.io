@@ -1,0 +1,31 @@
+{{title:Solcirklen}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-12-27T13:09:58Z}}
+{{copyright:Solcirklen}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Solcirklen]]
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Symbol.JPG]]
+<tr valign=top><td>'''Benævnelse(r)'''<td>Solens Cirkel, [[Santillia|Santillias]] Værn
+<tr valign=top><td>'''Leder(e)'''<td>[[Skumring Trædanser]], [[Frostsang]],
+[[Hjort]] og [[Nat]]
+<tr valign=top><td>''' Stiftet'''<td>Ukendt
+<tr valign=top><td>''' Kendte medlem(mer)'''<td>[[Skumring Trædanser]],
+[[Lund Drømmesyn]], [[Nat]]
+<tr valign=top><td>'''Racer'''<td>[[Elver|Elvere]], primært [[skovelver|skovelvere]]
+<tr valign=top><td>'''Alliance(r)'''<td>[[Eislonien]], [[Santillia]],
+[[Skovens Vogtere]], [[Santillias Ulve]],
+
+[[den elviske panteon|den elviske panteons]] kirker
+<tr valign=top><td>''' Modstander(e)'''<td>Alle elviske [[totemdruide|totemdruider]]
+<tr valign=top><td>'''Hovedsæde(r)'''<td>[[Crataeon]]
+<tr valign=top><td>'''Symbol(er)'''<td>Et træ med fire rødder i midten af en sol
+</table>
+'''Solcirklen''' eller '''Solens Cirkel''' er en elvisk druideorden, der har to formål: At beskytte [[Santillia]] og at udrydde alle elviske totemdruider på [[Niraham]]. 
+
+Ordenens stiftere var [[skovelver]]kvinden ''Sølvspor'', [[højelver]]kvinden ''Månehvisker'', skovelvermanden ''Ulm'' og skovelvermanden ''Løvfald''. Da Solcirklen blev dannet, dedikerede de fire den til [[Sissianna]] og svor, at [[cirkel|druidecirklens]] medlemmer altid ville værne om gudindens hellige skov og straffe de af hendes børn, som vender hendes blod ryggen.
+
+Solcirklen bibeholder til denne dag traditionen med at have fire ledere; en for hvert hjørne af Santillia, hvor denne er øverste overhoved indenfor cirklen. Når de mødes i [[Santillias Hjerte]], er de fire dog ligeværdige i alt. De nuværende ledere er [[Skumring Trædanser]] for syden, [[Frostsang]] for østen, [[Hjort]] for norden og [[Nat]] for vesten. Alle nuværende ledere er skovelvere, og Hjort er den eneste mand ud af de fire.
+
+Der er ingen, som ved, hvor længe denne druidecirkel har eksisteret, men den er både omfattende og mægtig. Næsten samtlige elviske druider i Santillia er medlemmer af Solens Cirkel, og ordenen har et godt samarbejde med især [[Sissianna|Sissiannas]] og [[Rina|Rinas]] kirker i [[Crataeon]].
+
+Ordenens medlemmer er for det meste meget religiøse og medvirker ofte i kirkernes jagt på naturtilbedende druider.

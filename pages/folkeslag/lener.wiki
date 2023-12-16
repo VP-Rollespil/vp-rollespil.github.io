@@ -1,0 +1,5 @@
+{{title:Lener}}
+{{author:Laura Holmegaard}}
+{{timestamp:2011-01-19T13:49:02Z}}
+{{copyright:Lener}}
+#REDIRECT: [[Lensmand]]

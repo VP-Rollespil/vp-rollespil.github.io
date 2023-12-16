@@ -1,0 +1,20 @@
+{{title:Mana}}
+{{author:Laura Holmegaard}}
+{{timestamp:2011-01-10T16:32:05Z}}
+{{copyright:Mana}}
+'''Mana''' er den kraftkilde, som de fleste magikere trække på, når de skal udføre [[magi]]. [[Mager|Magere]] er i stand til at manipulere manaen egenhændigt ved hjælp af [[håndtegn]] og [[rite|riter]], mens [[præst|præster]] og [[paladin|paladiner]] låner ekspertisen til at manipulere manaen fra deres [[guderne|guddom]].
+
+====Mana som et element====
+Nogle betragter mana som en del af [[elementerne]] på højde med [[jord]], [[ild]], [[vand]] og [[luft]], men det er et omstridt spørgsmål i både videnskabelige såvel som gejstlige kredse.
+
+Ifølge [[druidetro|druidetroen]] har hvert element en modsætning, og manas modsætning er [[rall]]. Rall er allerede offentligt anerkendt som et element, mens mana betragtes som en kraftkilde nærmere end et element, som kan manipuleres. Men rall betragtes trods alt både som et element og en kraftkilde, så de lærde er uenige om manas natur.
+
+====Manas forekomster====
+Der findes mana i alt, men absolut mest i levende væsener. Nogle skabning har naturlig mere mana i blodet end andre, f.eks. [[elver|elverne]], men de kan ikke trække på den instinktivt. Det kan til gengæld [[mirner|mirnere]] såsom f.eks. [[dryade|dryader]], der uden håndtegn eller riter kan manipulere naturen omkring sig. Visse dyr indeholder også mere mana end andre, f.eks. en [[grif]], som er naturligt resistent overfor visse typer magi. Der findes mange magiske væsener, men først og fremmest gudernes tjenere, som dog også har vidt forskellige niveauer af kyndighed indenfor magien, hvilket f.eks. gør sig gældende i sammenligningen af en [[satyr]], som ikke har synderligt megen [[magi]], og en [[trold]], som besidder en del mere.
+
+Man kan kun rense et objekt for mana gennem besværgelsen [[Magisk renselse]] (eller et ritual, for med dem kan man opnå enhver effekt), men besværgelsen kan ikke påvirke levende væsener.
+
+====Mana og det menneskelige legeme====
+En magiker opnår mere mana, hver gang vedkommende lærer en ny besværgelse. For i takt med at hans [[sind]] lærer, hvordan han manipulerer sine omgivelser på en ny måde, lærer kroppen at fungere optimalt med et lidt højere indhold af mana. Det er muligt at forøge sin naturlige mana ved f.eks. at dræne et magisk objekt eller få overført mana via en [[Manabeholder]], men det er farligt. Kroppen tåler ikke en belastning på mere end 150 % af dens naturlige manaindhold, og overskrider man denne grænse, brænder ens krop ud, og organerne svigter, så man dør.
+
+En magiker kan dog godt give afkald på sin mana på flere måder. En mager med de rette besværgelser kan lagre den i en magisk genstand, eller han kan skabe en manabeholder og dermed opbevare sin mana udenfor kroppen. [[Magisk skriftrulle|Skriftruller]] indeholder også lidt af en troldmands mana, men netop fordi denne mana ikke er lagret permanent, udløber den også efter seks måneders tid. Det samme gælder for magiske ladninger, som kun holder en enkelt [[cyklus]], da man ikke lagrer formularen med dobbelt mana, som man gør i [[Magisk skriftrulle|skriftruller]].

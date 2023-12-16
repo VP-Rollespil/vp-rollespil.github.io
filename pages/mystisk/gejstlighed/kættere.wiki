@@ -1,0 +1,5 @@
+{{title:Kættere}}
+{{author:Laura Holmegaard}}
+{{timestamp:2010-02-04T17:11:35Z}}
+{{copyright:Kættere}}
+#REDIRECT [[Kætter]]

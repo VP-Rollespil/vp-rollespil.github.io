@@ -1,0 +1,20 @@
+{{title:Ensian Hedrian}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-03T13:31:58Z}}
+{{copyright:Ensian Hedrian}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Ensian Hedrian]]
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[:Image: Ensian.JPG]]
+<tr valign=top><td>'''Bævnelse(r)'''<td>[[Stadsmager]] af [[Lindsborg]],
+Morticistmester
+<tr valign=top><td>'''Hjem'''<td>[[Lindsborg]]
+<tr valign=top><td>'''Køn'''<td>Mand
+<tr valign=top><td>'''Race'''<td>[[Menneske]]
+<tr valign=top><td>'''Født'''<td>Oktober, 1457 [[e.J.]]
+<tr valign=top><td>'''Profession'''<td>[[Morticist]], [[eksorcist]]
+<tr valign=top><td>'''Religion'''<td>[[Rina]]
+</table>
+'''Mester Ensian Hedrian''' er [[stadsmager]] af [[Lindsborg]] og søn af [[lensmagistrat|lensmagistraten]] [[Sandra Hedrian]] af [[Stormshede len]].
+Ensian blev født i efteråret 1457 [[e.J.]], og der er siden gået mange rygter om, hvem der er hans fædrende ophav. Blandt andet Lensgreve [[Argus Tremain]] har været på tale, men ingen har nogensinde opklaret denne gåde.
+
+Manglen på fader har dog aldrig bremset den ambitiøse stadsmager på hans vej op ad den sociale rangstige. Allerede fra en ung alder blev Ensian skolet i [[morticisme|morticismen]] på [[Sankt Helenas Akademi]], optaget i [[Sankt Helenas Orden]] som 14-årig, og opnåede [[Magiens Cirkel|Magiens Cirkels]] titel som mester i den unge alder af 18. To år senere blev han udråbt til stadsmager af Lindsborg, da hans forgænger blev dræbt under et dæmonangreb.

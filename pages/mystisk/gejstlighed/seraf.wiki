@@ -1,0 +1,5 @@
+{{title:Seraf}}
+{{author:Laura Holmegaard}}
+{{timestamp:2011-01-11T10:30:57Z}}
+{{copyright:Seraf}}
+#REDIRECT [[Serafin]]

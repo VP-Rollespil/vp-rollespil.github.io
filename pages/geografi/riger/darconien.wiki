@@ -1,0 +1,22 @@
+{{title:Darconien}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-29T12:48:57Z}}
+{{copyright:Darconien}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<caption><font size="+1">'''Darconien'''</font></caption>
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[:Image: Darconiens banner.JPG]]
+<tr valign=top><td>'''Hovedstad'''<td>[[Djorkas Sale]]
+<tr valign=top><td>'''Største by'''<td>[[Runernes Hal]]
+<tr valign=top><td>'''Befolkning'''<td>[[Dværg|Dværge]]
+<tr valign=top><td>'''Officielt sprog'''<td>[[Darconisk]]
+<tr valign=top><td>'''Officiel religion'''<td>[[Djorka]]
+<tr valign=top><td>'''Regeringsform'''<td>Monarki
+<tr valign=top><td>'''Valuta'''<td>Qutar, brak
+<tr valign=top><td>'''Skytsgud'''<td>Djorka
+</table>
+Dværgenes rige '''Darconien''' vender ud mod [[Ishavet]] mod vest, mens dets grænser til andre lande tæller [[Rustbjergene]] mod nord, [[Lenerne]] mod øst og [[Paravien]] mod syd.
+Dværgenes rige har altid været omgæret af mystik, for det er kun de færreste besøgende, som får lov til at se dværgenes underjordiske gange og byer. Også på overfladen har dværgene bebyggelser i form af store templer til [[Djorka]], jordens og vindens Herre, og barriere imod nord, hvor [[grønhuderne]] hærger.
+
+Den øverste iblandt dværgene er[[ Ulathan "Pandedeler" Sortstålsøkse]], [[højkonge|højkongen]] af [[Darconien]]. Han er kendt verden om som en mægtig leder. Derudover er også [[Aurumcana-klanen]] kendt vidt og bredt, for det er en mægtig handelsfamilie som har forbindelser til store dele af [[Niraham]].
+
+Dværgenes rige gemmer som sagt på mange hemmeligheder, men det nærmeste, som de fleste mennesker kommer på dem, er til de handelsposter som dværgene har bygget i udkanten af deres imperium. Her handler de gladelig med menneskene, men det er kun vigtige diplomater og handelskontakter, som rent faktisk får lov til at komme med ind i Darconiens hjerte.

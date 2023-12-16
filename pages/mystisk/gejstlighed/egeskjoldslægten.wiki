@@ -1,0 +1,5 @@
+{{title:Egeskjoldslægten}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-09-30T12:47:21Z}}
+{{copyright:Egeskjoldslægten}}
+#REDIRECT [[Egeskjold]]

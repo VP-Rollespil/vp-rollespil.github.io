@@ -1,0 +1,16 @@
+{{title:Aderyn Tremain}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-03T18:14:28Z}}
+{{copyright:Aderyn Tremain}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Aderyn Tremain]]
+<tr valign=top><td>'''Bævnelse(r)'''<td>Grevinde af [[Lindsborg]]
+<tr valign=top><td>'''Hjem'''<td>[[Lindsborg]]
+<tr valign=top><td>'''Køn'''<td>Kvinde
+<tr valign=top><td>'''Race'''<td>[[Menneske]]
+<tr valign=top><td>'''Født'''<td>Februar, 4 [[e.D.]]
+<tr valign=top><td>'''Religion'''<td>[[Nimar]]
+</table>
+'''Grevinde Aderyn Tremain''' af [[Lindsborg]] er den yngste datter af Lensgreve [[Argus Tremain]] og hans hustru, [[Eira Tremain|Eira de Renna]].
+Aderyn blev født i år 4 [[e.D.]] som den sidste i en søskendeflok på tre.
+Hendes søskende er storbroderen [[Finnian Tremain|Finnian]] og storesøsteren [[Muirenn Tremain|Muirenn]].

@@ -1,0 +1,54 @@
+{{title:Menneskenes gejstlige hierarki}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-16T10:22:33Z}}
+{{copyright:Menneskenes gejstlige hierarki}}
+De fleste [[menneske]]lige kirker i [[Niraham]] benytter sig af det samme interne hierarki, skønt [[Taras kirkes hierarki|Taras]] og [[Giraks kirkes hierarki|Giraks]] kirkes rangsystemer differentierer fra de øvriges.
+
+[[Sortelver|Sortelverne]] har deres eget [[sortelvernes gejstlige hierarki|hierarki]] indenfor kirkerne.
+
+====Forkynderne====
+Overhovedet for en guds kirke kaldes en '''[[ypperstepræst]]''', hvis det er en mand, eller '''[[ypperstepræstinde]]''', hvis det er en kvinde.
+Denne person er altid særligt udvalgt af sin gud, og vedkommende får ofte del i kræfter, som andre forkyndere kun kan forestille sig. Det er før set, at en gud selv har handlet aktivt for at hjælpe sin øverste forkynder, skønt guderne ellers sjældent personligt engagerer sig i Nirahams skæbne.
+
+Den næsthøjeste titel indenfor kirkernes interne hierarki er '''[[ærkebiskop]]''', en titel som bruges om både mænd og kvinder.
+En ærkebiskop er overhovedet for et storlens gejstlighed. Det er ærkebiskoppen for et storlens kirke, som i samråd med kirkens ypperstepræst vælger biskopperne i sit storlen.
+
+En '''[[biskop]]''' er overhovedet for et lens kirke, og vedkommendes titel er den samme, ligegyldigt om det er en mand eller kvinde.
+Biskoppen har til opgave egenhændigt at udpege de højpræster, som virker i hans eller hendes len.
+
+Titlen som '''[[kirkeinkvisitor]]''' tilkommer et fuldgyldigt medlem af en kirkes inkvisition, og tildeles personen af inkvisitionens [[stormester (gejstlig)|stormester]].
+Ud over sin rang som inkvisitor kan personen være alt fra almen præst til ypperstepræsten selv, men vedkommendes titel som kirkeinkvisitor giver kun en særlig rang i spørgsmål, der vedrører kætteri og håndteringen af ugudelige kræfter.
+Der kan være tilfælde, hvor en inkvisitor tildeles ekstra autoritet over de øvrige gejstlige i sin guds kirke.
+Derudover afgøres vedkommendes plads på rangstigen af hans eller hendes yderligere titel.
+
+Overhovedet for et sogns kirke kaldes en '''[[højpræst]]''', hvis det er en mand, eller en '''[[højpræstinde]]''', hvis det er en kvinde.
+Højpræster er særligt ansvarlige for at beskytte menigheden i deres sogn og for at rapportere foruroligende eller vigtige hændelser i området, som kunne få betydning for kirken, til deres biskop.
+
+Det spirituelle overhoved i et tempel kaldes for en '''[[kirkefader]]''', hvis det er en mand, eller en '''[[kirkemoder]]''', hvis det er en kvinde.
+Denne person ansvarlig for sit tempels menigheds trivsel, og har derudover et meget tæt samarbejde med sin kirkemester.
+
+En '''[[kirkemester]]''' er det administrative overhoved i et tempel og kaldes ved denne titel, ligegyldigt om vedkommende er mand eller kvinde.
+Denne person har ansvaret for et tempels vedligeholdeles og administration, hvilket inkluderer regnskabet, anvendelsen af de indsamlede kirkeskatter og deslige. Han eller hun lyder under kirkefaderen eller kirkemoderen, men de to stillinger er ikke så langt fra hinanden i prestige, og de to har hver især krav på den andens respekt.
+
+Et mandligt overhoved for et kloster kaldes en '''[[abbed]]''', eller en '''[[abbedisse]]''' hvis det er en kvinde. De omtales også som 'Fader' og 'Moder'.
+Vedkommende er ansvarlig for, at hans eller hendes klosters finanser løber rundt (eller for at finde en anden, der kan være ansvarlig for dette), for at alle [[lægbroder|lægbrødre]] eller [[lægsøster|-søstre]] og nye novicer bliver skrevet op og for klosterets generelle trivsel.
+Munke og nonner skal adlyde deres abbed eller abbeddisse ubetinget, for det er en del af deres klosterløfter.
+
+Titlen som '''[[krigspræst]]''' eller '''[[krigspræstinde]]''' er ikke lige anerkendt i alle kirker. [[Arl|Arls]], [[Jorin|Jorins]], [[Ragil|Ragils]], [[Djorka|Djorkas]] og [[Phlarn|Phlarns]] kirke anerkender krigsforkyndere som værende over almindelige præster og præstinder i rang, fordi de har modtaget deres guds særlige bevågenhed. De øvrige kirker anerkender dog kun denne titel som en definition og ikke som en decideret rang.
+
+En mandlig uddannet forkynder af sin guds ord kaldes for en '''[[præst]]''', og hans kvindelige modstykke for en '''[[præstinde]]'''.
+
+En person som har aflagt klosterløftet, dvs. viet sit liv til at tjene én gud igennem bøn og arbejde uden at forkynde guddommens ord til en menighed, kaldes for en '''[[munk]]''', hvis det er en mand, eller en '''[[nonne]]''' hvis det er en kvinde.
+Som klosterviet lover den gejstlige at vie sin krop, sit hjerte og sin sjæl til én gud i hele resten af hans eller hendes liv.
+
+Den laveste rang i det gejstlige hierarki er som '''[[akolyt]]'''.
+Dette er en person, som ikke engang nødvendigvis har aflagt sin hellige ed, men som under alle omstændigheder er under oplæring som præst eller præstinde.
+
+====Paladinerne====
+Ud over den forkyndende del af gejstligheden er der også [[paladin|paladinerne]], som har deres egen rangstige. En paladin må altid bøje sig for en uddannet forkynder af sin guds ord i sager som vedrører det guddommelige, med få undtagelser.
+
+Den højeste titel blandt kirkens hellige krigere er '''[[ærkepaladin]]'''. Dette administrative overhoved for et lens eller et sogns beskyttelse rangerer kun lige under en biskop eller højpræst i spørgsmål som vedrører lenets eller sognets forsvar.
+
+Den næsthøjeste titel er '''[[kirkeværge]]''', en paladin som er helliget et tempel snarere end én enkelt præst. Kirkeværger rangerer lige under en kirkefader eller kirkemoder i spørgsmål som vedrører forsvaret af hans eller hendes egen kirke.
+
+En '''[[paladin]]''' er den nederst rangerende i menneskenes hierarkiske rangstige, men er ikke desto mindre et respekteret og værdsat medlem af gejstligheden.

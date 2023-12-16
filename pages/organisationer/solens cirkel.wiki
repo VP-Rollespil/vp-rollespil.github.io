@@ -1,0 +1,5 @@
+{{title:Solens Cirkel}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-09-10T12:34:05Z}}
+{{copyright:Solens Cirkel}}
+#REDIRECT [[Solcirklen]]

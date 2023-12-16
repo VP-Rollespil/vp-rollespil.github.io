@@ -1,0 +1,23 @@
+{{title:Aerek}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-28T17:10:27Z}}
+{{copyright:Aerek}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Aerek af Roul-Assin]]
+<tr valign=top><td>'''Bævnelser'''<td>Hertug af [[Nordlenet]]
+<tr valign=top><td>'''Hjem'''<td>[[Roulon]]
+<tr valign=top><td>'''Køn'''<td>Mand
+<tr valign=top><td>'''Race'''<td>[[Menneske]]
+<tr valign=top><td>'''Født'''<td>November, 1358 [[e.J.]]
+<tr valign=top><td>'''Død'''<td>Juli, 1421 [[e.D.]]
+<tr valign=top><td>'''Slægt'''<td>Ukendt
+<tr valign=top><td>'''Profession'''<td>Hertug, kriger
+<tr valign=top><td>'''Religion'''<td>[[guderne|De Ti Sande guder]]
+</table>
+'''Kong Aerek af [[Roul-Assin]]''' blev kronet i 1405 [[e.J.]], efter at have tjent som marsk under Kong [[Groatosk]] i mange år.
+
+Kong Aereks første gerning som monark var at sværge Kong [[Filip I Narabond]] af [[Lenerne]] troskab, og derved at overgive sin kongetitel til ham. Som belønning modtog Aerek titlen som hertug af [[Nordlenet]] og værnede om dette storlen indtil sin død i 1415 e.J.
+
+Aerek var også den første [[rouler]] af vigtighed, som afsvor sine forfædres [[druidetro]] og blev omvendt til [[guderne|de Ti Sande guder]]. Dette skete også i 1405, og samtidig blev Roul-Assins officielle tro også de Ti Sande guder, skønt Aerek ikke reelt formåede at få særlig mange af sine landsmænd til at omvende sig.
+
+Hertug Aerek døde i kampen mod [[dæmonolog|dæmonologen]] [[Kalan]], da han forsøgte at generobre Roul-Assin.

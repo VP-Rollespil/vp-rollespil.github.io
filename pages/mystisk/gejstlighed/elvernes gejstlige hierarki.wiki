@@ -1,0 +1,44 @@
+{{title:Elvernes gejstlige hierarki}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-10-16T11:21:39Z}}
+{{copyright:Elvernes gejstlige hierarki}}
+Alle [[Niraham|Nirahams]] racer har forskellige gejstlige hierarkier, men som regel findes der en masse lighedspunkter imellem dem, da de yngre racer som regel har lært af de ældre og taget deres rangsystemer til sig.
+
+Alle Nirahams [[elver|elvere]] benytter sig af det samme interne hierarki, lige meget om de befinder sig i [[Eislonien]], [[Santillia]] eller en del af [[Verdensskoven]].
+
+====Forkyndere====
+Overhovedet for en guds kirke kaldes en '''[[ypperstepræst]]''', hvis det er en mand, eller '''[[ypperstepræstinde]]''', hvis det er en kvinde.
+Denne person er altid særligt udvalgt af sin gud, og vedkommende får ofte del i kræfter, som andre forkyndere kun kan forestille sig. Det er før set, at en gud selv har handlet aktivt for at hjælpe sin øverste forkynder, skønt guderne ellers sjældent personligt engagerer sig i Nirahams skæbne.
+
+Den næsthøjeste titel indenfor de elviske kirkers interne hierarki er '''[[ærkeforkynder]]''', en titel som bruges om både mænd og kvinder.
+En ærkeforkynder er overhovedet for et [[Fyrstedømme (elvisk)|fyrstedømmes]] gejstlighed. Det er ærkeforkynderen for sit fyrstedømmes kirke, som vælger sit områdes højpræster.
+
+Titlen som '''[[kirkeinkvisitor]]''' tilkommer et fuldgyldigt medlem af en kirkes inkvisition, og tildeles personen af inkvisitionens [[stormester (gejstlig)|stormester]].
+Ud over sin rang som inkvisitor kan personen være alt fra almen præst til ypperstepræsten selv, men vedkommendes titel som kirkeinkvisitor giver kun en særlig rang i spørgsmål, der vedrører kætteri og håndteringen af ugudelige kræfter.
+Der kan være tilfælde, hvor en inkvisitor tildeles ekstra autoritet over de øvrige gejstlige i sin guds kirke.
+Derudover afgøres vedkommendes plads på rangstigen af hans eller hendes yderligere titel.
+
+Titlen som '''[[gudeforkynder]]''' gives til en præst eller præstinde, som er i kontakt med samtlige guder i [[den elviske panteon]], frem for blot én enkelt. Disse har rang over højpræster i alle gejstlige spørgsmål, men ikke når det kommer til en tempelherre eller –frues administration af dennes tempel. Hvis en højpræst eksempelvis har forbudt en given person at komme i sin [[skov]], kan en gudeforkynder ikke hæve dette forbud, men deres ord bærer alligevel ofte stor vægt.
+
+Overhovedet for en skovs kirke kaldes en '''[[højpræst]]''', hvis det er en mand, eller en '''[[højpræstinde]]''', hvis det er en kvinde.
+Højpræster er særligt ansvarlige for at beskytte menigheden i deres skov og for at rapportere foruroligende eller vigtige hændelser i området, som kunne få betydning for kirken, til deres ærkeforkynder.
+
+Overhovedet indenfor et tempel kaldes for en '''[[tempelherre]]''', hvis det er en mand, eller for en '''[[tempelfrue]]''', hvis det er en kvinde.
+Denne person ansvarlig for sit tempels menigheds trivsel, samt for kirkens vedligeholdelse og administration, hvilket inkluderer regnskabet, anvendelsen af de indsamlede kirkeskatter og deslige.
+
+En mandlig uddannet forkynder af sin guds ord kaldes for en '''[[præst]]''', og hans kvindelige modstykke for en '''[[præstinde]]'''.
+
+Den laveste rang i det gejstlige hierarki er som '''[[akolyt]]'''.
+Dette er en person, som ikke engang nødvendigvis har aflagt sin hellige ed, men som under alle omstændigheder er under oplæring som præst eller præstinde.
+
+
+====Paladiner====
+Ud over den forkyndende del af gejstligheden er der også paladinerne, som har deres egen rangstige. En paladin må altid bøje sig for en uddannet forkynder af sin guds ord i sager som vedrører det guddommelige, med få undtagelser.
+
+Den højeste titel blandt kirkens hellige krigere er '''[[ærkepaladin]]'''. Dette administrative overhoved for en skovs beskyttelse rangerer kun lige under en højpræst i spørgsmål som vedrører skovens forsvar.
+
+Den næsthøjeste titel er '''[[tempelvogter]]''', en paladin som er helliget et tempel snarere end én enkelt præst. Tempelvogtere rangerer lige under en tempelherre eller tempelfrue i spørgsmål som vedrører forsvaret af hans eller hendes egen kirke.
+
+En '''[[gudernes vasal]]''' er en paladin, som er helliget alle gudeforkyndere hellere end én præst eller ét tempel. De har ingen rang over en præst eller præstinde, men står dog flere guder nær end en almindelig paladin, og rangerer derfor over denne i kirkelige hensigter.
+
+En '''[[paladin]]''' er den nederst rangerende i elvernes hierarkiske rangstige, men er ikke desto mindre et respekteret og værdsat medlem af gejstligheden.

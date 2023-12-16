@@ -1,0 +1,5 @@
+{{title:Sortelviske}}
+{{author:undefined}}
+{{timestamp:2017-09-04T15:03:28Z}}
+{{copyright:Sortelviske}}
+Betegnelse for en person der er af den sortelviske race.

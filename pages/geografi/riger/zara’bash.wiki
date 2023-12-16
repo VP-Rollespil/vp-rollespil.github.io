@@ -1,0 +1,5 @@
+{{title:Zara’bash}}
+{{author:Laura Holmegaard}}
+{{timestamp:2009-09-23T12:17:40Z}}
+{{copyright:Zara’bash}}
+#REDIRECT [[Zara'bash]]

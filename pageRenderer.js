@@ -1,8 +1,6 @@
 import fs from "fs";
 import ejs from "ejs";
-import { XMLParser } from "fast-xml-parser";
 import wiki2html from "./wikiToHtml.js";
-const parser = new XMLParser();
 
 let pages = getPageMap();
 
@@ -20,8 +18,9 @@ async function pageRenderer(page, data = {}, render = true) {
 		return { success: false, error: "Page not found" };
 	}
 
-	const pageText = fs.readFileSync(pagePath).toString();
-	const pageObject = parser.parse(pageText);
+	let rawText = fs.readFileSync(pagePath).toString();
+	let pageObject = parser(rawText);
+
 	if (!pageObject.text) return { success: false, error: "Page has no text" };
 	let text = wiki2html(pageObject.text);
 	if (render) {
@@ -35,6 +34,20 @@ async function pageRenderer(page, data = {}, render = true) {
 	}
 }
 
+function parser(pageText) {
+	let pageObject = {};
+	//find wikitext variables
+	pageText = pageText.replace(/{{(.*?)}}/g, (match, p1) => {
+		if (!p1.includes(":")) return match;
+		const variable = p1.split(":")[0];
+		const value = p1.split(":")[1];
+		pageObject[variable] = value;
+		return "";
+	});
+
+	return { ...pageObject, text: pageText };
+}
+
 /**
  * Retrieves a map of page names to page locations.
  * @returns {Map<string, string>} - The map of page names to page locations.
@@ -46,7 +59,7 @@ function getPageMap() {
 
 	for (const page of allPages) {
 		const fileName = page.split("/").pop();
-		const pageName = fileName.replace(".xml", "");
+		const pageName = fileName.replace(".wiki", "");
 		if (pages.has(pageName)) {
 			console.log(`Duplicate page ${pageName}`);
 			throw new Error(`Duplicate page ${pageName}`);
@@ -67,12 +80,12 @@ function getPageLocations(dir) {
 	let allPages = [];
 	const pages = fs.readdirSync(`./pages/${dir}`);
 	for (const element of pages) {
-		if (element.endsWith(".xml")) {
+		if (element.endsWith(".wiki")) {
 			allPages.push(`./pages/${dir}${element}`);
 		} else if (fs.lstatSync(`./pages/${dir}${element}`).isDirectory()) {
 			allPages.push(...getPageLocations(`${dir}${element}/`));
 		} else {
-			console.log(`Unknown element ${element}`);
+			//console.log(`Unknown element ${element}`);
 		}
 	}
 	return allPages;

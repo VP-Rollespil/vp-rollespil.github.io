@@ -1,0 +1,93 @@
+{{title:Nirahams hære}}
+{{author:Laura Holmegaard}}
+{{timestamp:2011-01-23T13:03:59Z}}
+{{copyright:Nirahams hære}}
+De fleste nationer i [[Niraham]] har en hær, men disse armeer deler ikke altid samme hierarki eller opdeling af troperne.
+
+====Den eislonske hær====
+[[Eislonien|Eisloniens]] hær består både af [[skovelver|skov]]- og [[højelver|højelvere]], som er blevet uddannet enten i deres egne stammer, på krigerakademiet [[Ariesh]] eller på [[stridsmager]]akademiet [[Lodriel]]. Den elviske hær har større fokus på [[magi]] og artilleristøtte end de fleste andre, men derudover består dens sande force først og fremmest af soldaternes mange års erfaring med kamp og våbenbrug.
+
+=====Militære titler=====
+'''Højkongen''' giver ordrer til samtlige [[fyrste|fyrster]], såfremt der er tale om den samlede, eislonske hær, som trods alt er en sammenfatning af de forskellige fyrsters egne arméer.
+
+En '''fyrste''' leder hele sin egen hær i kraft af sin egenskab som [[skov|skovens]]  øverste overhoved.
+
+En '''hærfører''' leder et korps, altså enten rytteriet, skytterne, spejderne, fodfolkene, stridsmagerne eller samaritterne.
+
+Den '''næstkommanderende hærfører''' leder et korps, hvis hærføreren bliver ude af stand til at tage beslutninger.
+
+En '''kaptajn''' leder en deling i et korps.
+
+Den '''næstkommanderende kaptajn''' leder en deling, hvis kaptajnen bliver ude af stand til at tage beslutninger.
+
+En '''soldat''' er et menigt medlem af en deling.
+
+=====Korps og delinger=====
+Et korps tæller samtlige krigere med den samme funktion. Hvert korps består af flere mindre delinger, hvis størrelse varierer afhængig af, hvilket korps der er tale om.
+
+'''Rytteriet''' tæller de beredne soldater.
+
+'''Skytterne''' inkluderer artilleristøtten.
+
+'''Spejderene''' er soldater, hvis primære opgave det er at skaffe oplysninger. De deltager sjældent i åben kamp.
+
+'''Fodfolkene''' er soldater til fods.
+
+'''Stridsmagerne''' er [[troldmand|troldmænd]], der bidrager med magi først og våbenkunst dernæst.
+
+'''Samaritterne''' er læger, [[præst|præster]], urtekyndige, [[alkymist|alkymister]] og kort sagt alle former for helbredere, som støtter op om de sårede tropper.
+
+====Den emyrianske hær====
+[[Emyr|Emyrs]] hær er berømt for at kunne mangedoble sin mængde af soldater i løbet af kun få uger, når bondesoldater med kun et halvt års krigserfaring og et enkelt våben indkaldes fra alle hjørner af riget for at slås for deres kejser.
+
+=====Militære titler=====
+'''Hærføreren''' er det øverste overhoved indenfor hæren og vælges af kejseren.
+
+En '''delingsfører''' leder en deling.
+
+En '''kaptajn''' leder en enhed.
+
+En '''løjtnant''' leder en enhed, hvis hans kaptajn bliver ude af stand til at tage beslutninger.
+
+En '''soldat''' er et menigt medlem af en enhed.
+
+=====Delinger og enheder=====
+En deling består af fem enheder, og en enhed består af 20 mand, som er bevæbnet med den samme form for våben. De skelnes mellem skytteenheder, beredne enheder, spejderenheder og enheder med fodfolk.
+
+====Den lenske hær====
+[[Lenerne|Lenernes]] hær er berygtet for at bestå af en samling frivillige bondeknolde og kun meget få uddannede soldater, men dens styrke ligger i lensmændenes villighed til at dø for det, de kæmper for, og i deres tro på, at [[Nimar]] holder hånden over sit udvalgte folk.
+
+=====Militære titler=====
+'''Marsken''' er det øverste overhoved indenfor den lenske hær. Han kommanderer samtlige tropper.
+
+En '''ridder''' leder som regel en eskadron, altså tyve ryttere. Han kan dog også selv indgå i en eskadron.
+
+En '''kaptajn''' leder en deling på tyve fodfolk.
+
+En '''væbner''' leder en eskadron, hvis hans ridder bliver ude af stand til at tage beslutninger.
+
+En '''soldat''' er et menigt medlem af en deling.
+
+=====Eskadroner og delinger=====
+En eskadron består af tyve ryttere, og en deling består af tyve fodfolk, som ofte deles ind i skytter og infanteri.
+
+====Den paraviske hær====
+[[Paravien|Paraviens]] hær er berømt for sine mange beredne krigere i panser og plade, og herudover er ridderrigets styrker også kendt for at være både modige og strategisk overlegne i forhold til mange andre nationer.
+
+=====Militære titler=====
+En '''Ridder af Paravien''' kommanderer samtlige tropper fra sit eget len, og via deres fælles krigsråd kommanderer de sytten Riddere over hele hæren.
+
+En '''ridder''' leder som regel en eskadron, altså tyve ryttere. Han kan dog også selv indgå i en eskadron.
+
+En '''kaptajn''' leder en deling på tyve fodfolk.
+
+En '''væbner''' leder en eskadron, hvis hans ridder bliver ude af stand til at tage beslutninger.
+
+En '''kavalerist''' er en bereden soldat, som ikke er ridder.
+
+En '''infanterist''' er en soldat til fods.
+
+=====Eskadroner og delinger=====
+En eskadron består af tyve ryttere. Medlemmerne i eskadronen kan sagtens selv være riddere og regnes i så fald som havende en slagkraft svarende til hundrede almindelige soldaters.
+
+En deling består af tyve fodfolk og deles ofte ind i skytter og infanteri.

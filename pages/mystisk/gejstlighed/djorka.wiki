@@ -1,0 +1,69 @@
+{{title:Djorka}}
+{{author:Jesper Kristiansen}}
+{{timestamp:2011-08-12T09:30:07Z}}
+{{copyright:Djorka}}
+<table border=1 cellpadding=2 cellspacing=0 align=right style="margin-left:1em">
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Djorka]]
+<tr valign=top><td style="background:#efefef;" colspan=2 align=center>[[Fil:Djorka.jpg|thumb]]
+<tr valign=top><td>'''Benævnelse(r)'''<td>[[Jordens Herre]]
+[[Alfaderen]]
+
+[[Vindens Herre]]
+
+[[Essens Mester]]
+<tr valign=top><td>''' Gruppetilhør'''<td>[[guderne|De Ti Sande guder]]
+<tr valign=top><td>''' Guderige'''<td>Skabt i [[Aferheim]]
+<tr valign=top><td>''' Tilhørsforhold'''<td>Neutralitet
+<tr valign=top><td>'''Kreds'''<td>[[Dværg|Dværge]]
+<tr valign=top><td>''' Arbejdsområde(r)'''<td>Smedning, runer, minearbejde,
+håndværk
+<tr valign=top><td>'''Tilbedere'''<td>Dværge og nogle få [[menneske|mennesker]]
+<tr valign=top><td>'''Domæne(r)'''<td>[[Jord]], [[vind]], smedekunst
+<tr valign=top><td>'''[[Mirner]]'''<td>Ukendt
+<tr valign=top><td>''' Mage(r)'''<td>[[Fanabina]]
+<tr valign=top><td>'''Efterkommer(e)'''<td>[[Ragil]], [[Burania]], [[Lyane]]
+<tr valign=top><td>'''Helligdag(e)'''<td>Ingen
+</table>
+'''Djorka''' er gud for jord, vind og smedekunst. Han står for godt håndværk og urokkelighed, og derfor undrer det ikke nogen, at han er skytsgud for [[dværg|dværgene]] og [[Darconien]].
+
+====Tilbedere====
+Djorkas tilbedere er først og fremmest dværgene, for de er skabt i hans billede og er hans udvalgte folk. Derudover bliver Djorka tilbedt af både smede og et fåtal af bønder, for Djorka var den første smed i verden, og han skabte smedjen [[Cyklus]], som gav [[Niraham|Nirahams]] beboere døgnet. Desuden er han gud for jord, men det er primært [[plener|plenerne]] og [[norrlænding|norrlændingene]], som tilbeder Djorka som bøndernes gud - på fastlandet har hans forældre [[Nimar]] og [[Rina]] rollen som agerdyrkernes beskyttere.
+
+====Familieforhold====
+Djorka er søn af Nimar og Rina. Han er en af de førstefødte guder i [[Aferheim]], og selv fader til den næste generation af guder.
+[[Rasnasolin]] er Djorkas broder, men lige siden deres fødsel har de to guder stredes. Deres kamp fortsætter, om end den ikke er nær så indædt, som dengang den begyndte. De tos forhold er dog stadig langt fra godt, hvilket også påvirker både Djorkas og Rasnasolins dødelige tjenere.
+[[Sissianna]] er Djorkas søster, og deres domæner synes også at minde en del om hinanden, idet Djorka står for jorden og Sissianna for naturen.
+Djorka er fader til [[Ragil]] og [[Burania]], hvis moder er [[Fanabina]]. [[Lyane]] er Djorkas søsterdatter.
+
+====Djorkas kirke====
+Djorkas [[ypperstepræst]] er dværgen [[Brunar Stenhammer]].
+
+I sommeren 13 e.D. vedtog en forsamling af Essemestre at man skulle trække sig bort fra samarbejdet med resten af Højslettens kirker, og vende blikket indad, og mod Darconien. Dette blev yderligere forstærket ved [[Højsletten|Højslettens]] fald, hvor Søjlernes Hal faldt og Edean Gram, den menneskelige forkynder, døde i forsvaret.
+
+Djorkas kirkes eneste positive relation blandt de andre kirker er til den Monopatiske kirke, men selv her er kontakten sparsom.
+
+I Darconien er [[Djorkas Sale]] det største tempel, som er helliget [[Alfaderen]], og det er derfor også Brunas Stenhammers hjem.
+
+====Ikonografi====
+Hammer og ambolt bruges ofte som symboler på Djorka, hvilket naturligvis bunder i hans status som [[guderne|gudernes]] mestersmed. Her står genstandene for godt håndværk, især smedekunst.
+
+Stridshammeren, der ligeledes bruges til at symbolisere Djorka, viser den anden side at hans personlighed som en krigsgud, der kan bruge sin hammer både som værktøj såvel som våben.
+
+Essen under træet bruges også til at tilkendegive Djorkas tilstedeværelse. Den refererer naturligvis til [[Cyklus]], smedjen under [[Basél|Baséls]] rødder.
+
+====[[Guderige]]====
+Djorkas hjem er et gigantisk bjerglandskab omsuset af en stærk og svalende vind. I disse bjerges hjerter gløder ilden fra tusinde esser, hvor smedene forarbejder de mest vidunderlige smykker og våben af alskens ædle metaller. Store sale som bliver oplyst af mange fakler, er ligeledes blevet hugget kunstfærdigt ud af klippen, og i disse gildehaller står der mange langborde dækket med god mad.
+
+====Ærkeengle====
+*[[Erul]] - håndværk
+
+*[[Guar]] - minearbejde
+
+*[[Hildur]] - ære og nag
+
+====Se også====
+*[[Dåb]]
+*[[Skabelsesberetningen]]
+*[[Evighedsringen]]
+*[[Påfuglen]]
+*[[Djorkas smedje]]
