@@ -1,6 +1,6 @@
 import express, { static as static_ } from "express";
 const app = express();
-import pageRenderer, { getPageLocations } from "./pageRenderer.js";
+import pageRenderer, { getPageLocations, getPageMap } from "./pageRenderer.js";
 import fs from "fs";
 
 app.set("view engine", "ejs");
@@ -24,50 +24,48 @@ app.get("/wiki/*", async (req, res) => {
 	}
 });
 
+function getCleanPages() {
+	return getPageLocations("").map((page) =>
+		page.split("/").pop().replace(".xml", "")
+	);
+}
 app.get("/move", (req, res) => {
 	res.render("move", {
-		pages: getPageLocations("").map((page) =>
-			page.replace(".xml", "").replace("./pages/", "")
-		),
+		pages: getCleanPages(),
 	});
 });
 
-function move(from, to) {
+function rename(from, to) {
 	if (from && to) {
-		if (!fs.existsSync(`./pages/${from}.xml`)) {
+		let pageMap = getPageMap();
+		let fromPath = pageMap.get(from);
+		console.log(from, fromPath, to);
+
+		if (!fs.existsSync(fromPath)) {
 			return { success: false, error: "Page not found" };
 		}
 
-		let toPath = to.split("/");
-		toPath.pop();
-		toPath = toPath.join("/") + "/";
-		// if to is a directory, move to directory
-		console.log({ toPath, to });
-		if (toPath == to) {
-			let fromName = from.split("/").pop();
-			to = `${to}${fromName}`;
-		}
-		if (to == "/") to = "";
-		if (to.startsWith("/")) return { success: false, error: "Invalid path" };
-		fs.mkdirSync(`./pages/${toPath}`, { recursive: true });
-		fs.renameSync(`./pages/${from}.xml`, `./pages/${to}.xml`);
+		let fromPathSplit = fromPath.split("/");
+		fromPathSplit.pop();
+		fromPathSplit.push(to);
+		let toPath = fromPathSplit.join("/") + ".xml";
 
-		/*Change all links*/
-		const pages = getPageLocations("");
-		let updatedPages = 0;
+		console.log(fromPath, toPath);
+
+		fs.renameSync(fromPath, toPath);
+
+		//Replace all links to the old page with the new page
+
+		let pages = getPageLocations("");
 		for (const page of pages) {
-			const pageText = fs.readFileSync(page).toString();
-			const newPageText = pageText
-				.replace(new RegExp(`\\[\\[${from}\\]\\]`, "gi"), `[[${to}]]`)
-				.replace(new RegExp(`\\[\\[${from}\\|`, "gi"), `[[${to}|`);
+			let data = fs.readFileSync(page, "utf8");
+			let newData = data
+				.replace(new RegExp(`\\[\\[${from}\\]\\]`, "g"), `[[${to}]]`)
+				.replace(new RegExp(`\\[\\[${from}\\|`, "g"), `[[${to}|`);
 
-			if (pageText != newPageText) {
-				fs.writeFileSync(page, newPageText);
-				updatedPages++;
-			}
+			if (data != newData) fs.writeFileSync(page, newData, "utf8");
 		}
 
-		console.log(`Moved ${from} to ${to} and updated ${updatedPages} pages`);
 		return { success: true };
 	} else {
 		return { success: false, error: "Missing parameters" };
@@ -78,56 +76,12 @@ app.use(express.json());
 app.post("/move", (req, res) => {
 	let { from, to } = req.body;
 	console.log(req.body);
-	const result = move(from, to);
+	const result = rename(from, to);
 
 	if (result.success) {
 		res.status(200).send(result);
 	} else {
 		res.status(400).send(result);
-	}
-});
-app.get("/bulkmove", (req, res) => {
-	res.render("bulkmove", {
-		pages: getPageLocations("").map((page) =>
-			page.replace(".xml", "").replace("./pages/", "")
-		),
-	});
-});
-app.get("/bulkmovefromtext", (req, res) => {
-	res.render("movefromtext", {
-		pages: getPageLocations("").map((page) =>
-			page.replace(".xml", "").replace("./pages/", "")
-		),
-	});
-});
-function getCleanPages() {
-	return getPageLocations("").map((page) =>
-		page.replace(".xml", "").replace("./pages/", "")
-	);
-}
-app.post("/bulkmove", (req, res) => {
-	let { items, to } = req.body;
-
-	//check if to is a directory
-	let toPath = to.split("/");
-	toPath.pop();
-	toPath = toPath.join("/") + "/";
-	if (toPath != to) {
-		res.status(400).send({ success: false, error: "to must be a directory" });
-		return;
-	}
-
-	let errors = [];
-	for (const element of items) {
-		const result = move(element, to);
-		if (!result.success) {
-			errors.push({ from: element, to: to, error: result.error });
-		}
-	}
-	if (errors.length == 0) {
-		res.status(200).send({ success: true, pages: getCleanPages() });
-	} else {
-		res.status(400).send({ success: false, errors });
 	}
 });
 
