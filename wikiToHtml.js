@@ -126,11 +126,12 @@ function wiki2html(s) {
 						);
 					} else {
 						return (
-							'<a href="/wiki/' +
+							'<a class="inactive">' + (p.length ? p.join("|") : link) + "</a>"
+							/*'<a disabled class="inactive" href="/wiki/' +
 							page +
 							'.html">' +
 							(p.length ? p.join("|") : link) +
-							"</a>"
+							"</a>"*/
 						);
 					}
 				}

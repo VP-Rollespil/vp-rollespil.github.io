@@ -3,6 +3,8 @@
 :root {
 	--text-color: #222;
 	--background-color: #e6e6e6;
+	--link-color: #094fc9;
+	--inactive-link-color: hsl(218, 30%, 41%);
 }
 
 /* Reset default styles */
@@ -75,10 +77,15 @@ p {
 
 /* Style links */
 a {
-	color: #094fc9;
+	color: var(--link-color);
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+a.inactive {
+	color: var(--inactive-link-color);
+	cursor: pointer;
 }

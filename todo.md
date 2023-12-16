@@ -8,7 +8,6 @@
 - certificeringer
 - search
 - tags
-- red links
 - book embed
 
 Ideer til certificeringer:
