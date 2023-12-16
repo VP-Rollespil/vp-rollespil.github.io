@@ -106,6 +106,11 @@ function wiki2html(s) {
 				);
 			})
 
+			//TOC __TOC__ (not supported yet)
+			.replace(/__TOC__/g, function (m, l) {
+				return "";
+			})
+
 			.replace(/\[\[(.*?)\]\]/g, function (m, l) {
 				// internal link or image
 				var p = l.split(/\|/);
