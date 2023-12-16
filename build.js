@@ -10,12 +10,12 @@ fs.mkdirSync("./build/wiki");
 let pageCounter = 0;
 async function buildDir(dir) {
 	const pages = fs.readdirSync(`./pages/${dir}`);
-	console.log(pages);
 	let promises = [];
 	for (const element of pages) {
 		if (element.endsWith(".xml")) {
 			promises.push(buildPage(dir, element, "./build"));
 		} else if (fs.lstatSync(`./pages/${dir}${element}`).isDirectory()) {
+			if (element.startsWith("NOBUILD")) continue;
 			fs.mkdirSync(`./build/wiki/${dir}${element}`);
 			buildDir(`${dir}${element}/`);
 		} else {
@@ -27,11 +27,11 @@ async function buildDir(dir) {
 }
 async function buildPage(dir, page, location) {
 	const pageName = page.replace(".xml", "");
-	const result = await pageRenderer(`${dir}${pageName}`);
+	const result = await pageRenderer(pageName);
 	if (!result.success) {
 		console.log(`Failed to render ${pageName}: ${result.error}`);
 	} else {
-		fs.writeFileSync(`./build/wiki/${dir}${pageName}.html`, result.html);
+		fs.writeFileSync(`./build/wiki/${pageName}.html`, result.html);
 		pageCounter++;
 	}
 }

@@ -118,7 +118,7 @@ function wiki2html(s) {
 					let page = link.toLowerCase().split("/").pop();
 					if (pages.has(page)) {
 						return (
-							'<a class="inactive" href="/wiki/' +
+							'<a class="active" href="/wiki/' +
 							page +
 							'.html">' +
 							(p.length ? p.join("|") : link) +
