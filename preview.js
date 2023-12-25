@@ -40,7 +40,7 @@ app.get("/wiki/*", async (req, res) => {
 
 function getCleanPages() {
 	return getPageLocations("").map((page) =>
-		page.split("/").pop().replace(".xml", "")
+		page.split("/").pop().replace(".wiki", "")
 	);
 }
 app.get("/move", (req, res) => {
@@ -62,7 +62,7 @@ function rename(from, to) {
 		let fromPathSplit = fromPath.split("/");
 		fromPathSplit.pop();
 		fromPathSplit.push(to);
-		let toPath = fromPathSplit.join("/") + ".xml";
+		let toPath = fromPathSplit.join("/") + ".wiki";
 
 		console.log(fromPath, toPath);
 

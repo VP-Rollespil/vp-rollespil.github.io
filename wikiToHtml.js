@@ -22,10 +22,19 @@ function iswiki(s) {
 }
 
 import { getPageMap } from "./pageRenderer.js";
+import fs from "fs";
 const pages = getPageMap();
 
+let test = /(?:^|\n+)([^# =\*<\{].+)(?:\n+|$)/gm;
+
 // the regex beast...
-function wiki2html(s) {
+/**
+ *
+ * @param {string} s string to convert
+ * @param {number} level level of recursion if adding wiki pages inside
+ * @returns
+ */
+function wiki2html(s, stripMetadata = false, level = 0) {
 	// lists need to be done using a function to allow for recusive calls
 	function list(str) {
 		return str.replace(/(?:(?:(?:^|\n)[\*#].*)+)/g, function (m) {
@@ -48,13 +57,23 @@ function wiki2html(s) {
 
 	return list(
 		s
-
+			.replace(/\{\{(.*?)\}\}\n/g, function (m, l) {
+				//is metadata?
+				if (!l.match(/^wiki/i)) {
+					return "";
+				} else {
+					return m;
+				}
+			})
 			//TOC __TOC__ (not supported yet)
 			.replace(/__TOC__/g, function (m, l) {
 				return "";
 			})
 			/* BLOCK ELEMENTS */
+
+			//todo: <p> matches too much? it seems like newlines in the start are a part of the capture group
 			.replace(/(?:^|\n+)([^# =\*<].+)(?:\n+|$)/gm, function (m, l) {
+				if (l.startsWith("{{")) return m; //I tried adding it to the regex, but it fucked everything up
 				if (l.match(/^\^+$/)) return l;
 				return "\n<p>" + l + "</p>\n";
 			})
@@ -139,6 +158,26 @@ function wiki2html(s) {
 						);
 					}
 				}
+			})
+
+			//find {{wiki PAGEHERE}}
+			.replace(/\{\{(.*?)\}\}/g, function (m, l) {
+				//is wiki template?
+				if (!l.match(/^wiki /i)) return m;
+
+				if (level > 2) throw new Error("Too many nested wikis");
+
+				l = l.split(" ");
+				l.shift();
+				let page = l.join(" ").toLowerCase();
+				if (pages.has(page)) {
+					let data = fs.readFileSync(pages.get(page), "utf8");
+					let html = wiki2html(data, stripMetadata, level + 1).trim();
+					console.log(html);
+					return html;
+				}
+				console.log("No page found for " + page);
+				return m;
 			})
 	);
 }
