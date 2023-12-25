@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./print.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+		<title><%book.title%></title>
+		<style type="text/css" rel="stylesheet" href="./book.css">
+			@page: right {
+				@top-left {
+					content: "<%= book.title %>";
+				}
+			}
+			@page: left {
+				@top-right {
+					content: "<%= book.title %>";
+				}
+			}
+		</style>
+	</head>
+	<body id="makepdf">
+		<%- book.text %>
+
+		<script>
+			let doc = new jsPDF("p", "mm", [300, 300]);
+			let makePDF = document.querySelector("#makepdf");
+
+			// fromHTML Method
+			doc.fromHTML(makePDF);
+			//doc.save("output.pdf");
+		</script>
+	</body>
+</html>

@@ -34,6 +34,25 @@ async function pageRenderer(page, data = {}, render = true) {
 	}
 }
 
+function bookRenderer(bookPath, data = {}) {
+	if (!fs.existsSync(bookPath)) {
+		return { success: false, error: "Page not found" };
+	}
+
+	let rawText = fs.readFileSync(bookPath).toString();
+	let bookObject = parser(rawText);
+
+	bookObject.text = bookObject.text.replace(/{{(.*?)}}/g, (match, p1) => {
+		if (p1 == "pagebreak") return "<span class='pagebreak'></div>";
+		return match;
+	});
+
+	if (!bookObject.text) return { success: false, error: "Page has no text" };
+	let text = wiki2html(bookObject.text);
+
+	return { success: true, text: text, bookObject: bookObject };
+}
+
 function parser(pageText) {
 	let pageObject = {};
 	//find wikitext variables
@@ -92,4 +111,9 @@ function getPageLocations(dir) {
 }
 
 export default pageRenderer;
-export { pageRenderer, getPageLocations as getPageLocations, getPageMap };
+export {
+	pageRenderer,
+	getPageLocations as getPageLocations,
+	getPageMap,
+	bookRenderer,
+};

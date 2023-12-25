@@ -1,4 +1,6 @@
-[[image:svarkstad bog forside.jpg|center|600px]]
+{{title:Svarkstad - en introduktion}}
+{{author:Vitus Krogh Holm}}
+{{cover:svarkstad cover.jpg}}
 {{pagebreak}}
 = Offgame forord =
 Hej!
@@ -14,3 +16,4 @@ Alligevel har Svarkstad spillet en central rolle i flere forskellige vigige begi
 
 {{pagebreak}}
 = Svarkstads personager =
+{{wiki citros ignis}}
