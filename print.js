@@ -6,6 +6,7 @@ import ejs from "ejs";
 import htmlToPDFMake from "html-to-pdfmake";
 import pdfMake from "pdfmake";
 import { JSDOM } from "jsdom";
+import styles from "./printStyles.js";
 const { window } = new JSDOM();
 
 var fonts = {
@@ -42,58 +43,84 @@ async function getbook() {
 	return bookContent;
 }
 
-let bookHTML = await getbook();
-let pdfContent = htmlToPDFMake(bookHTML.text, {
-	window: window,
-});
+let renderedBook = await getbook();
+convertToPDF(renderedBook);
 
-//Add cover
-if (bookHTML.bookObject.cover && final) {
-	//image takes a while to load, so only add it if we're making the final version
-	pdfContent.unshift({
-		image: "./public/images/" + bookHTML.bookObject.cover,
-		alignment: "center",
-		fit: [400, 550],
-		margin: [0, 0, 0, 0],
+function convertToPDF(renderedBook) {
+	let pdfContent = htmlToPDFMake(renderedBook.text, {
+		window: window,
+		defaultStyles: styles,
 	});
-}
 
-let dd = {
-	pageSize: "A5", //417.6 pt by 597.6 pt
-	content: pdfContent,
-	pageBreakBefore: function (currentNode) {
-		// break before all h1. this also makes a cover page
-		return (
-			currentNode.style &&
-			(currentNode.style.indexOf("pdf-pagebreak-before") > -1 ||
-				currentNode.style.indexOf("html-h1") > -1)
-		);
-	},
+	//Turn h1 and h2 uppercase
+	pdfContent.forEach((element) => {
+		if (
+			element.style &&
+			(element.style.indexOf("html-h1") != -1 ||
+				element.style.indexOf("html-h1") != -1)
+		) {
+			element.text = element.text.toUpperCase();
+		}
+	});
 
-	header: function (currentPage, pageCount) {
-		return {
-			text: `${bookHTML.bookObject.title} `,
+	//Add cover
+	if (renderedBook.bookObject.cover && final) {
+		//image takes a while to load, so only add it if we're making the final version
+		pdfContent.unshift({
+			image: "./public/images/" + renderedBook.bookObject.cover,
 			alignment: "center",
-			margin: [0, 20, 0, 0],
-		};
-	},
-	footer: function (currentPage, pageCount) {
-		//add page number on outer side of page
-		return {
-			text: `Side ${currentPage}`,
-			alignment: currentPage % 2 ? "left" : "right",
-			margin: [30, 0, 30, 0],
-		};
-	},
-	defaultStyle: {
-		font: "Times",
-	},
-	info: {
-		title: bookHTML.bookObject.title,
-		author: bookHTML.bookObject.author,
-	},
-};
+			fit: [400, 550],
+			margin: [0, 0, 0, 0],
+		});
+	}
 
-let pdf = printer.createPdfKitDocument(dd);
-pdf.pipe(fs.createWriteStream(`./build/books/${book}.pdf`));
-pdf.end();
+	let dd = {
+		pageSize: "A5", //417.6 pt by 597.6 pt
+		content: pdfContent,
+		pageBreakBefore: function (currentNode) {
+			// break before all h1. this also makes a cover page if the first element is an h1
+			return (
+				currentNode.style &&
+				(currentNode.style.indexOf("pdf-pagebreak-before") > -1 ||
+					currentNode.style.indexOf("html-h1") > -1)
+			);
+		},
+
+		header: function (currentPage, pageCount) {
+			if (currentPage == 1) {
+				return null;
+			}
+			return {
+				text: `${renderedBook.bookObject.title} `,
+				alignment: "center",
+				margin: [0, 20, 0, 0],
+			};
+		},
+		footer: function (currentPage, pageCount) {
+			//add page number on outer side of page
+			if (currentPage == 1) {
+				return null;
+			}
+			// +1 because we don't count the cover page
+			return {
+				text: `Side ${currentPage + 1}`,
+				alignment: (currentPage + 1) % 2 ? "left" : "right",
+				margin: [30, 0, 30, 0],
+			};
+		},
+		defaultStyle: {
+			font: "Times",
+		},
+		styles: {},
+		info: {
+			title: renderedBook.bookObject.title,
+			author: renderedBook.bookObject.author,
+		},
+	};
+
+	console.log(dd.styles);
+	fs.mkdirSync("./build/books", { recursive: true });
+	let pdf = printer.createPdfKitDocument(dd);
+	pdf.pipe(fs.createWriteStream(`./build/books/${book}.pdf`));
+	pdf.end();
+}

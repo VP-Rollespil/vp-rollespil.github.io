@@ -1,0 +1,6 @@
+:root {
+	--text-color: #222;
+	--background-color: #e6e6e6;
+	--link-color: #094fc9;
+	--inactive-link-color: hsl(218, 30%, 41%);
+}
