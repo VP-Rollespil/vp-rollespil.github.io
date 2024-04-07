@@ -1,0 +1,33 @@
+{{title:Styling test}}
+{{author:Vitus Krogh Holm}}
+{{cover:svarkstad cover.jpg}}
+{{pagebreak}}
+= h1 lorem ipsum=
+Text test lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+nec diam euismod, tincidunt nisl eget, tincidunt quam. Sed euismod
+== h2 lorem ipsum==
+Text test lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+nec diam euismod, tincidunt nisl eget, tincidunt quam. Sed euismod
+=== h3 lorem ipsum===
+Text test lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+nec diam euismod, tincidunt nisl eget, tincidunt quam. Sed euismod
+==== h4 lorem ipsum====
+Text test lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+nec diam euismod, tincidunt nisl eget, tincidunt quam. Sed euismod
+===== h5 lorem ipsum=====
+Text test lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+nec diam euismod, tincidunt nisl eget, tincidunt quam. Sed euismod
+====== h6 lorem ipsum======
+Text test lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+nec diam euismod, tincidunt nisl eget, tincidunt quam. Sed euismod
+
+{{pagebreak}}
+=Wikilinks=
+==== Citros Ignis ====
+{{wiki Citros ignis}}
+==== Ellefolk ====
+{{wiki ellefolk}}
+==== Zara'Bash ====
+{{wiki Zara'Bash}}
+==== fisgur ====
+{{wiki fisgur}}
